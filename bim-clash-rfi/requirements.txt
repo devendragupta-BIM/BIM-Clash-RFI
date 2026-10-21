@@ -1,0 +1,9 @@
+groq
+reportlab
+lxml
+requests
+python-dotenv
+gspread
+oauth2client
+google-auth
+google-auth-oauthlib

@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)https://e8313166-669b-4168-b1a8-e77165e33c42.frame.claudeusercontent.com/_f/1789807909-ee5e/ -->
+<html lang="en" crxlauncher-bridged="" crxlauncher=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- frame-runtime --><script>window.__FRAME_PREAMBLE={"v":1,"cred":"cookie","capabilities":{"artifact":"artifact.Kiow93e4.js","assets":"assets.DOAjpBS9.js","comments":"comments.DrhK3r8W.js","db":"db.zFlAA4qL.js","downloads":"downloads.axDW2QAi.js","embed":"embed.DcZf-TSv.js","endpoints":"endpoints.BPfoKaE1.js","mcp":"mcp.C8qKIFvQ.js","network":"network.B5UA9Su4.js","permissions":"permissions.DWFFeHI0.js","room":"room.BF1j0KPr.js","sample":"sample.C7KQQdQj.js","self":"artifact.Kiow93e4.js","user":"user.CCh6oTS_.js"},"transforms":"_transforms.DeQ5QuJ7.js","comments":"_comments.DUaNQZcg.js","translate":"_translate.DqxC5ek1.js","ldx":"_ldx.CqNtBrkk.js"}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </script><script>(function(){"use strict";function sr(t){return t==="cookie"||t==="query"?t:void 0}var Kn=3e5;function ir(t,e){try{const r=t("navigation")[0],n=[r.responseStart,r.redirectEnd-r.redirectStart,r.domContentLoadedEventStart,e(),r.connectEnd-r.domainLookupStart,r.responseStart-r.requestStart];r.requestStart>0||(n.length=4);for(let a=0;a<n.length;a++)if(n[a]>=0&&n[a]<=3e5)n[a]=n[a]|0;else{if(a<4)return;n.length=4}return n}catch{return}}var lr=["light","dark","system"],cr=/^[A-Za-z0-9_-]{1,64}$/,St=/^[a-zA-Z_:][a-zA-Z0-9_:.-]{0,127}$/,ur=new Set(["class","hidden","value","checked","style","title","alt","placeholder","lang","dir","role","tabindex","disabled","readonly","contenteditable","open","colspan","rowspan"]);function fr(t){const e=t.toLowerCase();return e.startsWith("data-")||e.startsWith("aria-")||ur.has(e)}var At="data-ldx-props";function dr(t,e){if(e.toLowerCase()===At)return!0;const r=t.getAttribute(At);if(r===null)return!1;try{const n=JSON.parse(r);if(n===null||typeof n!="object"||Array.isArray(n))return!0;const a=e.toLowerCase();return Object.keys(n).some(s=>s.toLowerCase()===a)}catch{return!0}}var Gn="http://www.w3.org/1999/xhtml",hr="http://www.w3.org/2000/svg",pr=new Set(["script","style","iframe","noscript","noframes","noembed","xmp","plaintext","template","title","textarea","object","embed"]),mr=new Set(["script","style"]);function vr(t){const e=t.localName.toLowerCase();return t.namespaceURI==="http://www.w3.org/1999/xhtml"?!pr.has(e):t.namespaceURI===hr?!mr.has(e):!1}function Ve(t,e){return t===e||(t===160||t===32)&&(e===160||e===32)}function _r(t,e){const r=t.length,n=e.length;let a=0;for(;a<r&&a<n&&Ve(t.charCodeAt(a),e.charCodeAt(a));)a++;let s=0;for(;s<r-a&&s<n-a&&Ve(t.charCodeAt(r-1-s),e.charCodeAt(n-1-s));)s++;return{p:a,s}}function yr(t,e){const r=t.firstChild;if(t.childNodes.length!==1||r===null||r.nodeType!==Node.TEXT_NODE){t.textContent=e;return}const n=r.data,a=n.length,s=e.length,{p:c,s:d}=_r(n,e);c===a&&d===0&&a===s||r.replaceData(c,a-c-d,e.slice(c,s-d));const O=r.data,w=t.ownerDocument.getSelection?.()??null,b=w!==null&&w.rangeCount>0&&(w.anchorNode===r||w.focusNode===r)?{anchor:w.anchorNode,anchorOffset:w.anchorOffset,focus:w.focusNode,focusOffset:w.focusOffset}:null;let m=-1,R=-1;for(let h=0;h<O.length&&h<e.length;h++){const p=O.charCodeAt(h),D=e.charCodeAt(h);p!==D&&Ve(p,D)&&(m<0&&(m=h),R=h)}const M=m>=0;if(M&&r.replaceData(m,R-m+1,e.slice(m,R+1)),M&&b!==null&&b.anchor!==null&&b.focus!==null)try{w.setBaseAndExtent(b.anchor,b.anchorOffset,b.focus,b.focusOffset)}catch{}}var gr=new Set(["html","head","body","frameset"]);function wr(t){return t.namespaceURI==="http://www.w3.org/1999/xhtml"&&gr.has(t.localName)}function br(t){if(t===null||typeof t!="object")return!1;const e=t;if(typeof e.target!="string"||!cr.test(e.target)||e.text!==void 0&&typeof e.text!="string")return!1;if(e.attrsSet!==void 0){if(e.attrsSet===null||typeof e.attrsSet!="object")return!1;for(const[r,n]of Object.entries(e.attrsSet))if(!St.test(r)||typeof n!="string")return!1}if(e.attrsRemoved!==void 0){if(!Array.isArray(e.attrsRemoved))return!1;for(const r of e.attrsRemoved)if(typeof r!="string"||!St.test(r))return!1}return!0}function Er(t,e){if(t===null||typeof t!="object")return!1;const{seq:r,elements:n}=t;if(typeof r!="number"||!Number.isSafeInteger(r)||!Array.isArray(n)||n.length===0||n.length>64)return!1;for(let a=0;a<n.length;a++)if(!e(n[a]))return!1;return!0}function Sr(t){return t===null||typeof t!="object"?!1:Er(t.__frame_patch,br)}function Ar(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_init;return e!==null&&typeof e=="object"}function kr(t){return t!==null&&typeof t=="object"&&t.__frame_size_poke===!0}function Rr(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_host_visible;return e!==null&&typeof e=="object"&&typeof e.visible=="boolean"}function Tr(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_theme;if(e===null||typeof e!="object")return!1;const r=e.theme;return typeof r=="string"&&lr.includes(r)}var Lr=["ok","empty","snapshot_error","snapshot_timeout","unclonable","oversize","unavailable","restore_error","withheld"],Or=["TypeError","RangeError","ReferenceError","SyntaxError","DataCloneError","QuotaExceededError","AbortError","TimeoutError","SecurityError","Error","other"];function Mr(t){return typeof t=="string"&&Or.includes(t)?t:"other"}var Pr=Object.freeze({until:null,now:!1}),Nr="__claude_hot",Cr="__claude_hot_in",jr=/^__claude_hot(?:_in)?(?::|$)/,kt=/^[0-9a-z]{1,32}$/,Xe=t=>t===void 0?Nr:"__claude_hot:"+t,be=t=>t===void 0?Cr:"__claude_hot_in:"+t;function Fr(t,e){const r=[];for(let n=0;n<t.length;n++){const a=t.key(n);a!==null&&a!==e&&jr.test(a)&&r.push(a)}for(const n of r)t.removeItem(n)}function Ir(t){let e=null;try{e=q(JSON.parse(t)?.hot)}catch{return null}return e===null||typeof e.k!="string"||!kt.test(e.k)?null:le(e.g)?{k:e.k,g:e.g}:{k:e.k}}var zn=262144,Dr=3e3,xr=5e3,Rt=/^[a-z0-9._:-]{1,64}$/,Hr=["none","hot-restart","hard-reload"],qr=["asset","doc","added","removed"],Br=1500,Ur=/^[0-9a-f]{64}$/;function q(t){return t!==null&&typeof t=="object"?t:null}function le(t){return typeof t=="number"&&Number.isInteger(t)&&t>=0&&t<2**31}function Tt(t){return t===void 0||typeof t=="number"&&Number.isFinite(t)}function Kr(t){return t===void 0||typeof t=="string"&&Rt.test(t)}function Lt(t){const e=q(t);return e!==null&&(e.until===null||typeof e.until=="number"&&Number.isFinite(e.until))&&typeof e.now=="boolean"}function Ye(t){const e=q(t);return e!==null&&typeof e.ver=="string"&&e.ver.length<=128&&Tt(e.seq)&&typeof e.handoff=="string"&&Lr.includes(e.handoff)&&Kr(e.note)}function Gr(t){const e=q(t);return e!==null&&le(e.gen)&&(e.phase==="final"||e.phase==="pending")&&(e.from===null||Ye(e.from))}function zr(t){const e=q(t);return e!==null&&e.kv===1&&le(e.gen)&&Ye(e.from)&&Object.hasOwn(e,"data")}function $r(t){const e=q(t);return e!==null&&e.__frame_hot_snapshot===!0&&le(e.gen)&&typeof e.timeoutMs=="number"&&e.timeoutMs>=0&&e.timeoutMs<=6e4&&(e.handoff===void 0||typeof e.handoff=="boolean")&&(e.deadline===void 0||Lt(e.deadline))&&Tt(e.seq)&&(e.note===void 0||typeof e.note=="string")&&(e.key===void 0||typeof e.key=="string")}function Wr(t){const e=q(t);return e!==null&&e.__frame_hot_start===!0&&le(e.gen)&&Ye(e.from)}function Vr(t){return typeof t=="string"&&t.length>=1&&t.length<=128}function Ot(t){return q(t)!==null&&!Array.isArray(t)}function Xr(t){const e=q(t);return e!==null&&e.__frame_cap_grant===!0&&typeof e.cap=="string"&&Vr(e.ver)&&(e.grant===void 0||Ot(e.grant))&&(e.budgets===void 0||Ot(e.budgets)&&Object.values(e.budgets).every(Number.isFinite))&&(e.brokerGen===void 0||le(e.brokerGen))}function Yr(t){const e=q(t);return e!==null&&e.__frame_cap_rewired===!0&&(e.caps===void 0||Array.isArray(e.caps)&&e.caps.every(r=>typeof r=="string"))&&(e.brokerGen===void 0||le(e.brokerGen))}function Mt(t){const e=q(t);return e!==null&&typeof e.ver=="string"&&e.ver.length<=128&&Number.isFinite(e.seq)}function Pt(t){if(t==null||typeof t=="string")return!0;const e=q(t);return e!==null&&typeof e.doc=="string"&&typeof e.profile=="string"}function Jr(t){const e=q(t);return e!==null&&typeof e.path=="string"&&qr.includes(e.kind)&&Pt(e.from)&&Pt(e.to)}function Zr(t){return t===null?null:Object.freeze(t.filter(Jr))}function Qr(t){const e=q(t);return e!==null&&e.__frame_hot_update===!0&&Number.isFinite(e.id)&&Mt(e.from)&&Mt(e.to)&&(e.changed===null||Array.isArray(e.changed))&&Hr.includes(e.required)&&Lt(e.deadline)&&typeof e.verdictTimeoutMs=="number"&&e.verdictTimeoutMs>=0&&e.verdictTimeoutMs<=6e4&&(e.preflight===void 0||typeof e.preflight=="string"&&Ur.test(e.preflight))}var ce=/^[\w.-]+\.js$/;function en(t,e,r){return r?"inert":typeof e=="string"&&ce.test(e)?t?[e]:"inert":t?"inert":"framed"}var Nt=Object.freeze({[Symbol("claude.hot.restart")]:!0});function Ct(t,e){let r;try{r=t??sessionStorage}catch{return null}const n=Xe(e?.k),a=be(e?.k);let s=null;try{s=r.getItem(n)}catch{}try{r.removeItem(n)}catch{}try{Fr(r,a)}catch{}let c=null;if(s!==null&&!(e!==null&&e.g===void 0))try{const d=JSON.parse(s);zr(d)&&(e===null||d.gen===e.g)&&(c=d)}catch{}if(c===null)try{r.removeItem(a)}catch{}return c}function jt(){const t=/^\/_f\/([^/]{1,128})\//.exec(location.pathname);return t?t[1]:""}var tn=/^[^/\\?#]{1,128}$/,Ft=t=>tn.test(t)&&t!=="."&&t!=="..";function It(t,e,r){const n=new URL(t),a="/_f/"+e+"/";if(!e||!n.pathname.startsWith(a)||!Ft(r))return null;const s=n.search.slice(1).split("&").filter(c=>!/^__frame_t(?:=|$)/.test(c)).join("&");return n.origin+"/_f/"+r+"/"+n.pathname.slice(a.length)+(s?"?"+s:"")+n.hash}var Fe="{}";function Ee(t){if(!t)return null;const e={ver:t.ver,handoff:t.handoff};return t.seq!==void 0&&(e.seq=t.seq),t.note!==void 0&&(e.note=t.note),e}function Dt(t,e){return t!==null&&t.note===void 0&&e?.note!==void 0?{...t,note:e.note}:t}function xt(t){const e=t?.k;return e!==null&&typeof e=="object"?e:void 0}function rn(t,e,r,n=null){const a=setTimeout,s=clearTimeout,c=queueMicrotask,d=performance.now.bind(performance),O=new TextEncoder;let w=null,b=null;try{w=history,b=w.replaceState.bind(w)}catch{}const m=(...o)=>{try{console.warn(...o)}catch{}};let R=jt(),M=null;try{M=sessionStorage}catch{}const h={storage:M,fetch:typeof fetch=="function"?fetch.bind(globalThis):null,entry:location.origin+location.pathname+location.search,ver:R,key:n?.k};let p=n?.k;const D=typeof requestAnimationFrame=="function"?requestAnimationFrame:o=>a(()=>o(d()),16);let _=e?.data??{},C=Ee(e?.from),P=e?.gen??0,x=e!==null,W=!1,J=!1,X=null,Te=!1;const Le=new AbortController;let Oe=null,H=null,me=null,qe=!1,oe=()=>{};const l=new Promise(o=>{oe=o});let v=!1,E=!1,I=!1,j,L=null,K=!1,Me=!1,Z=!1,Be=!1,ae=!1,de=!1;const Pe=o=>{for(const u of[Xe(o),be(o)])try{M?.removeItem(u)}catch{}},V=(o,u)=>{try{u!==null&&r.post(o,u)}catch{}},se=()=>ae||=Z&&(H===null||Be),B=()=>{const o={__frame_hot:!0,ready:H!==null,accept:me!==null,demand:!0};de=!ae,de&&(o.booting=!0),v&&(o.readData=!0),I&&(o.threw=!0),L?.assess&&(o.preflight=!0),V(o,X)};let ve=!1,Ne=!1,ie=!1,Ce=!1;const i=()=>{ve||!Te||ie||(ve=!0,V({__frame_reveal_hold:!0},"*"))},g=()=>new Promise(o=>{let u,f=0;const S=F=>{if(u===void 0)u=F;else if(F!==u||++f>=8){o();return}try{D(S)}catch{o()}};try{D(S)}catch{o()}}),y=()=>{ie=!0,V({__frame_reveal_ready:!0},"*")},k=o=>{Ne||(Ne=!0,o.then(u=>{if(u===!1)return;let f=null;try{f=L?.settle?.()??null}catch{}return(f===null?g():new Promise(S=>{a(S,50),Promise.resolve(f).then(S,S)}).then(g)).then(y)}))},Q=()=>{if(Ce||!ie)return;Ce=!0;const o=()=>{try{L?.afterReveal?.()}catch{}};o(),g().then(()=>{o(),y()})},G=(o=!1)=>{if(qe||H===null||!x||!J)return;qe=!0;const u=H,f=_;c(()=>{let S;try{S=u(f)}catch(U){throw oe(!1),U}let F=!1;try{F=typeof S?.then=="function"}catch{}if(!F){oe(!0);return}Promise.resolve(S).then(()=>oe(!0),U=>{oe(!1),c(()=>{throw U})})}),k(o?l:r.dcl.then(()=>l))},ee=o=>typeof o=="string"&&Rt.test(o)?o:void 0,dt=o=>{const u={__frame_hot_restart:!0},f=ee(o?.note);f!==void 0&&(u.note=f),o?.required==="hard-reload"&&(u.required="hard-reload"),V(u,X)},Zt=Object.freeze({get data(){return J||(E=!0),!x&&!v&&(v=!0,J&&B()),_},get from(){return C},get gen(){return P},signal:Le.signal,snapshot(o){typeof o=="function"&&(Oe=o)},ready(o){typeof o!="function"||H!==null||(H=o,i(),B(),W&&V({__frame_hot_ready:!0,gen:P},X),G())},accept(o){typeof o=="function"&&(me=o,B())},restart(o){const u={note:o?.note,required:o?.required};if(J){dt(u);return}const f=j;j={note:ee(f?.note)??u.note,required:f?.required==="hard-reload"||u.required==="hard-reload"?"hard-reload":void 0}}});let Ue=null,Qt=()=>{};const Fn=new Promise(o=>{Qt=o});let In=null;const er=()=>In??=r.dcl.then(()=>{let o=!1;try{o=Ue!==null&&Ue.expect()}catch{}if(!o)return;const u=Ue.maxMs;return new Promise(f=>{Fn.then(f),a(f,u)})}),tr=()=>{if(!K||Me||L===null)return;Me=!0;const o=L;er().then(()=>{try{ie||o.afterStart(xt(e),!1)}catch{}})},rr=o=>{e!==null&&E&&(v=!0),_={},C=null,P=0;try{M?.removeItem(be(n?.k))}catch{}e!==null&&!o&&k(r.dcl.then(()=>H!==null?l:void 0))},Dn=()=>{K=!0,k(er().then(()=>H!==null?l:void 0)),tr()};try{addEventListener("error",()=>{I||H!==null||(I=!0,B())})}catch{}const nr=()=>{a(()=>{!ae&&se()&&de&&B()},0)};try{Z=document.readyState==="complete",Z||addEventListener("load",()=>{Z=!0,nr()},{once:!0})}catch{Z=!0}se(),l.then(()=>{Be=!0,nr()});let he=-1,ht,pt,je=!0,mt=!1,vt,Ke=null;const _t=o=>{const u=Ke===null;Ke=je&&o[0]!=="withheld"?o:["withheld",o[1],Fe];let f=o[0];if(je&&f!=="withheld"){const F={ver:R,handoff:f};ht!==void 0&&(F.seq=ht),pt!==void 0&&(F.note=pt);try{if(M===null)throw new Error("no storage");M.setItem(Xe(p),'{"kv":1,"gen":'+he+',"from":'+JSON.stringify(F)+(vt!==void 0?',"k":'+JSON.stringify(vt):"")+',"data":'+(f==="ok"?o[2]:Fe)+"}")}catch{f="unavailable"}}else{f="withheld",Pe(p);try{L?.release?.()}catch{}}const S={__frame_hot_snapshotted:!0,gen:he,handoff:f,bytes:o[1]};o[3]!==void 0&&(S.errName=o[3]),V(S,X),u&&(f==="snapshot_error"||f==="unclonable"||f==="oversize")&&m("claude.hot: snapshot",f,o[3])},_e=o=>{try{return Mr(o?.name)}catch{return"other"}},ye=(o,u,f=0)=>_t(u===void 0?[o,f,Fe]:[o,f,Fe,_e(u)]),xn=o=>{if(o.gen<=he)return;const u=he>=0;if(he=o.gen,ht=o.seq,pt=ee(o.note),typeof o.key=="string"&&kt.test(o.key)&&o.key!==p&&(Pe(p),p=o.key),je&&=o.handoff!==!1,u){Ke!==null?_t(Ke):mt&&V({__frame_hot_held:!0,gen:he},X);return}Le.abort();const f=Object.freeze({handoff:je,timeoutMs:o.timeoutMs,deadline:o.deadline??Pr}),S=Oe,F=()=>{if(je)try{vt=L?.capture()}catch{}if(S===null){ye("empty");return}let T=!1;const z=a(()=>{T||(T=!0,ye("snapshot_timeout"))},Math.max(0,f.timeoutMs));Promise.resolve().then(()=>S(f)).then(ge=>{if(T)return;T=!0,s(z);let re;try{re=JSON.stringify(ge)}catch(yt){ye("unclonable",yt);return}if(typeof re!="string"){ye("unclonable");return}let ne=re.length;try{ne=O.encode(re).length}catch{}if(ne>262144){ye("oversize",void 0,ne);return}_t(["ok",ne,re])},ge=>{T||(T=!0,s(z),ye("snapshot_error",ge))})};let U=null;try{U=L?.holdForIme()??null}catch{}if(U===null)F();else{mt=!0,V({__frame_hot_held:!0,gen:he},X);const T=()=>{mt=!1,F()};U.then(T,T)}},Hn=o=>{if(!W||x||H===null||o.gen!==P)return;let u=null;try{u=Ct(M,n&&{k:n.k,g:o.gen})}catch{}if(u!==null&&u.gen!==o.gen){u=null;try{M?.removeItem(be(n?.k))}catch{}}_=u?.data??{},C=Dt(Ee(u?.from??o.from),Ee(o.from)),u!==null&&(P=u.gen),x=!0,W=!1;const f=xt(u);l.then(S=>{try{S&&L?.afterStart(f,!0)}catch{}}),G(!0)};let Ge=0;const qn=o=>{const u=me;if(u===null||o.id<=Ge)return;Ge=o.id;const f=L?.assess;if(o.preflight===void 0||f===void 0){or(o,u);return}let S=!1;const F=z=>{S||(S=!0,s(T),o.id===Ge&&or(o,u,z))},U=()=>F(f.timeout(o)),T=a(U,Br+100);f.run(o,window).then(F,U)},or=(o,u,f)=>{let S,F=!1,U=!1,T,z,ge=null;const re=A=>{if(U)return!1;if(T!==void 0&&T!==A)return m(`claude.hot: u.${A}() ignored - u.${T}() was called first`),!1;const te=T===void 0;return T=A,te},ne=A=>{T="restart",m(`claude.hot: ${A} - restarting`)},yt=()=>{if(!re("adopt")||o.id!==Ge)return;const A=o.to.ver;if(ze.required!=="none"){ne(`u.adopt() needs required 'none', it is '${ze.required}'`);return}if(!Ft(A)){ne("u.adopt() cannot address this version");return}if(!R||A===R)return;const te=R,Y=h.entry;let $e="",wt,we=null,We;try{$e=location.href,wt=w.state,we=It($e,te,A),we!==null&&(b(wt,"",we),location.pathname.startsWith("/_f/"+A+"/")?we=location.href:We="navigate event canceled")}catch(Et){We=_e(Et)}if(We!==void 0){z="adopt_failed",ne(`adopt_failed ${We}; URL not changed`);return}we===null?(z="adopt_skipped",m(`claude.hot: adopt_skipped - page already left /_f/${te}/; URL not changed, update still applied`)):z="adopted",R=h.ver=A;try{h.entry=It(Y,te,A)??Y}catch{}const bt=we;ge=()=>{if(R===A){if(bt!==null)try{if(location.href!==bt)m("claude.hot: adopt_revert_skipped - update not applied; URL left where the page navigated");else{if(b(wt,"",$e),location.href!==$e){m("claude.hot: adopt_revert_failed navigate event canceled - URL still at the new version");return}z="adopt_reverted",m("claude.hot: adopt_reverted - adopt() was called but the handler threw; URL restored")}}catch(Et){m(`claude.hot: adopt_revert_failed ${_e(Et)} - URL still at the new version`);return}R=h.ver=te,h.entry=Y,bt===null&&(z=void 0)}}},ze=Object.freeze({from:{ver:o.from.ver,seq:o.from.seq},to:{ver:o.to.ver,seq:o.to.seq},changed:Zr(o.changed),required:o.required,deadline:o.deadline,adopt:yt,defer(){return re("defer")&&ze.deadline.now&&ne("u.defer() past the deadline"),Nt},restart(A){return re("restart"),T==="restart"&&!U&&(S??=ee(A?.note),F||=A?.required==="hard-reload"),Nt},...f?.update}),Bn=(A,te)=>{U=!0,A==="threw"?(ge?.(),S??=_e(te).toLowerCase()):T===void 0&&m(A==="timeout"?"claude.hot: accept handler did not answer in time - restarting":"claude.hot: accept handler settled without defer/restart/adopt - restarting");const Y={__frame_hot_verdict:!0,id:o.id};Y.verdict=A==="threw"||T===void 0||T==="restart"?"restart":T==="adopt"?"applied":"deferred",Y.verdict==="restart"&&(F&&(Y.required="hard-reload"),S!==void 0&&(Y.note=S)),z!==void 0&&(Y.verdict==="applied"||z!=="adopted")&&(Y.adopt=z),V(Object.assign(Y,f?.verdict),X)};let ar=!1;const gt=(A,te)=>ar?!1:(ar=!0,s(Un),Bn(A,te),!0),Un=a(()=>gt("timeout"),o.verdictTimeoutMs);Promise.resolve().then(()=>u(ze)).then(()=>gt("settled"),A=>{!gt("threw",A)&&T==="adopt"&&dt({note:_e(A).toLowerCase()}),m("claude.hot: accept",_e(A))})};try{t.hot===void 0&&Object.defineProperty(t,"hot",{value:Zt,writable:!1,configurable:!1,enumerable:!1})}catch{}return{hot:Zt,boot:h,afterConnect(){Te=!0,(e!==null||H!==null)&&i()},onInit(o,u){X=u,J=!0;const f=Gr(o)?o:null;f?.phase==="final"&&e!==null&&e.gen===f.gen?(x=!0,C=Dt(C,Ee(f.from)),Dn()):(W=f?.phase==="pending",rr(W),x=!W,P=f?.gen??0,C=Ee(f?.from)),B(),de&&a(()=>{ae||(ae=!0,B())},xr),W&&H!==null&&V({__frame_hot_ready:!0,gen:P},u),j!==void 0&&(dt(j),j=void 0),G()},onNoInit(){J=!0,rr(!1),x=!0,G()},onShell(o){return o?.__frame_revealed===!0?(Q(),!1):$r(o)?(xn(o),!0):Wr(o)?(Hn(o),!0):Qr(o)?(qn(o),!0):!1},attachExtras(o){L=o,tr(),o.assess&&B()},inSlot:()=>be(p),hydration(o,u){Ue??={expect:o,maxMs:u}},hydrated(){Qt()},carried(){return x?_:{}},presented:()=>ie}}var $n="frame_ldx_runtime",nn="frame_ldx_build",Wn="script#an-form",on=256;function Ht(t,e,r){for(const n of t)r(n)&&t.delete(n);t.size>=on&&!t.has(e)&&t.delete(t.values().next().value),t.add(e)}function Je(t,e,r){try{const n=t[e];if(typeof n!="function")return;t[e]=function(...a){const s=n.apply(this,a);try{r(this)}catch{}return s}}catch{}}var Ze;function an(){if(Ze)return Ze;const t={media:new Set,contexts:new Set,onStart:null,onPause:null};Ze=t;const e=window.HTMLMediaElement?.prototype;e&&(Je(e,"play",a=>{Ht(t.media,a,s=>s.paused),t.onStart?.(a)}),Je(e,"pause",a=>t.onPause?.(a)));const r=window.AudioContext,n=window.AudioNode?.prototype;return r&&n&&Je(n,"connect",a=>{const s=a.context;s instanceof r&&(Ht(t.contexts,s,c=>c.state==="closed"),t.onStart?.(s))}),t}function sn(t){let e=window;for(let r=0;e.parent&&e.parent!==e&&r<8;r++)if(e=e.parent,t(e))return!0;return!1}function ln(){let t=null;const e=()=>t??parent,r=n=>t?n===t:sn(a=>a===n);return{post(n,a){if(t){e().postMessage(n,a);return}let s=parent;for(let c=0;c<8&&(s.postMessage(n,a),!(!s.parent||s.parent===s));c++)s=s.parent},on(n){const a=s=>{const c=s.source;r(c)&&n(s.data,s.origin,s.isTrusted,()=>{t??=c})};return addEventListener("message",a),()=>removeEventListener("message",a)},port:n=>({post(a,s){if(s?.activation){e().postMessage(a,{targetOrigin:n,includeUserActivation:!0});return}if(s?.transfer){e().postMessage(a,n,s.transfer);return}e().postMessage(a,n)},on(a,s){const c=d=>{r(d.source)&&d.origin===n&&a(d.data,d)};return addEventListener("message",c,s),()=>removeEventListener("message",c,s)}})}}function cn(){const t={post:()=>{},on:()=>()=>{}};return{...t,port:()=>t}}var un=500,fn=2e4,dn="data-token-reads",hn="data-frame-refused-watch",pn="data-frame-unsupported",mn=/(?:^|\s)stylesheet(?:\s|$)/i;function vn(t,e){let r="";if(t instanceof HTMLScriptElement?r=t.src:t instanceof HTMLLinkElement&&mn.test(t.rel)&&(r=t.href),!r)return null;try{const n=new URL(r);return n.origin===location.origin&&n.pathname.startsWith(e)?n.origin+n.pathname:null}catch{return null}}function _n(t,e,r){if(!t||e!=="query")return;const n="/_f/"+t+"/";document.documentElement.setAttribute(hn,"");const a=location.href,s=fetch,c=setTimeout,d={method:"HEAD",cache:"no-store",credentials:"same-origin"},O=h=>h.ok||h.status===304;let w=!1,b=!1;const m=()=>removeEventListener("error",M,!0),R=async h=>{const p=await s(h,d);if(O(p))b=!0;else if(p.status===403){const D=await s(a,d);if(O(D)){const _=(await s(h,d)).status;_===403?(b=!0,document.documentElement.setAttribute(pn,""),r()):_<500&&(b=!0)}else D.status>=400&&D.status<500&&(b=!0)}},M=h=>{if(b||w)return;if(document.documentElement.hasAttribute(dn)){b=!0,m();return}const p=vn(h.target,n);p&&(w=!0,c(()=>{R(p).catch(()=>{}).finally(()=>{w=!1,b&&m()})},un))};addEventListener("error",M,!0),addEventListener("load",m,{once:!0}),c(m,fn)}var Qe="__frame_scroll",yn=150,gn=310,wn=160,bn=3e4;function En(){let t=0,e=!1,r=!1,n=!1,a=0,s=null;const c=_=>{try{sessionStorage.setItem(Qe,JSON.stringify({y:_}))}catch{}},d=()=>{if(clearTimeout(t),s===null)return;const _=s;s=null,c(_)},O=()=>{if(e){e=!1;return}r=!0,s=scrollY,clearTimeout(t),t=setTimeout(d,yn)};try{addEventListener("scroll",O,{passive:!0}),addEventListener("pagehide",d)}catch{}const w=()=>{let _;try{_=sessionStorage.getItem(Qe)}catch{return null}if(_===null)return null;let C;try{C=JSON.parse(_)}catch{C=null}const P=C?.y;if(!(typeof P=="number"&&Number.isFinite(P)&&P>=0)){try{sessionStorage.removeItem(Qe)}catch{}return null}return P};let b=!1;const m=_=>{try{const C=scrollY;scrollTo({top:_,left:0,behavior:"instant"}),a=_,n=!0,clearTimeout(t),s=null,c(_);const P=scrollY;P!==C&&(e=!0),P!==_&&!b&&(b=!0,addEventListener("load",()=>{try{if(scrollY===P){const x=w();m(x!==null?x:a)}}catch{}},{once:!0}))}catch{}},R=()=>{try{return!!location.hash}catch{return!0}};let M=!1;const h=()=>{try{if(M||innerWidth>gn||innerHeight>wn)return;M=!0;const _=Date.now(),C=()=>{try{removeEventListener("resize",C)}catch{}if(Date.now()-_>bn||r||R())return;const P=w();m(P!==null?P:a)};addEventListener("resize",C)}catch{}};let p=!1,D=!1;return{restore(){if(p||(p=!0,R()))return;const _=w();_!==null&&(m(_),h())},promoted(){if(D||(D=!0,R()))return;const _=w();_!==null?(m(_),h()):n&&m(a)}}}function Sn(t,e,r,n){let a=null;try{a=window.trustedTypes?.createPolicy("frame-runtime",{createScriptURL:O=>O})??null}catch{}const s=window.Worker,c=s?.prototype,d=Object.freeze({Worker:s,workerOn:c?.addEventListener,workerPost:c?.postMessage,workerTerminate:c?.terminate,fetch:window.fetch.bind(window),preventDefault:Event.prototype.preventDefault,now:Date.now,policy:a,origins:e});r(t).then(O=>O?.bootTopLevel?O.bootTopLevel(d,n):n.settle()).catch(()=>n.settle())}var Vn="modulepreload",Xn=function(t){return"/"+t},Yn={},An=function(e,r,n){let a=Promise.resolve();function s(c){const d=new Event("vite:preloadError",{cancelable:!0});if(d.payload=c,window.dispatchEvent(d),!d.defaultPrevented)throw c}return a.then(c=>{for(const d of c||[])d.status==="rejected"&&s(d.reason);return e().catch(s)})},kn=window===top,qt=Object.getOwnPropertyDescriptor(window,"claude"),Ie=en(kn,window.__FRAME_PREAMBLE?.topLevel,qt?.writable===!1),et=typeof Ie=="object"&&Ie[0],N=et?cn():ln();(function(){const t=Object.defineProperty,e=globalThis,r=["RTCPeerConnection","webkitRTCPeerConnection","RTCDataChannel","RTCIceCandidate","RTCSessionDescription","RTCRtpSender","RTCRtpReceiver"];let n=0;for(let a=0;a<r.length;a++){const s=r[a];try{t(e,s,{value:void 0,writable:!1,configurable:!1})}catch{try{delete e[s]}catch{}try{t(e,s,{value:void 0,writable:!1,configurable:!0})}catch{}}typeof e[s]=="function"&&n++}if(n&&Ie==="framed")try{N.post({__frame_rtc_lockdown_failed:n},"*")}catch{}})();var Bt=1e4,Rn=2e3,tt=2e3,rt=Object.freeze([...window.__FRAME_PREAMBLE?.origins??["https://claude.ai","https://preview.claude.ai"]]);function Ut(t){for(const e of rt)if(e.endsWith(":*"))try{const r=new URL(t);if(`${r.protocol}//${r.hostname}:*`===e)return!0}catch{}else if(t===e)return!0;return!1}var Se=Object.freeze({...window.__FRAME_PREAMBLE?.capabilities}),Ae=window.__FRAME_PREAMBLE?.transforms,nt=window.__FRAME_PREAMBLE?.comments,ot=window.__FRAME_PREAMBLE?.translate,ke=window.__FRAME_PREAMBLE?.ldx,at=sr(window.__FRAME_PREAMBLE?.cred);function Kt(t){return An(()=>import("/_runtime/"+t),void 0)}var Re=new Set,Gt=setTimeout,Tn=fetch,Ln=AbortController,On=800+800*Math.random(),Mn=3e3,De=null,zt=new Map;function Pn(t,e){let r=zt.get(t);return r||zt.set(t,r=Nn(t,e)),r}function Nn(t,e){if(De?.has(t))return Promise.resolve("csp");if(navigator.onLine===!1)return Promise.resolve("offline");const r=new Ln;let n=!1;return Gt(()=>{n=!0,r.abort()},Mn),Tn("/_runtime/"+t,{signal:r.signal}).then(a=>(r.abort(),a.ok?/javascript/i.test(a.headers.get("content-type")??"")?e instanceof Error&&/:\d+:\d+\)?$/m.test(e.stack??"")?"eval":"served":"mime":"http"),()=>n?"timeout":De?.has(t)?"csp":"net")}function ue(t){if(!De){const e=De=new Set;try{document.addEventListener("securitypolicyviolation",r=>{const n=/\/_runtime\/([^/?#]+)/.exec(r.blockedURI);n&&r.disposition!=="report"&&e.add(n[1])})}catch{}}return Kt(t).catch(()=>new Promise(e=>Gt(e,On)).then(()=>Kt(t+"?r=1")).then(e=>(e!==void 0&&Re.add(t),e)))}function $t(t,e,r){return{contract:t.contract,changes:new Set(t.changes??[]),flags:new Set(t.flags??[]),capabilities:t.capabilities??{},capBudgets:t.capBudgets??{},brokerGen:t.brokerGen,transforms:new Map,shellOrigin:e,shell:r,mount:ft,hooks:xe,pipe:()=>({wrap:(n,a)=>(...s)=>{try{return a(...s)}catch(c){return Promise.reject(c)}}})}}var pe=null,$=null;function Wt(t,e,r){try{Object.defineProperty(t,e,{value:r,writable:!1,configurable:!1,enumerable:!0})}catch{try{Object.defineProperty(t,e,{value:r,writable:!1,configurable:!0,enumerable:!0})}catch{}}}var st=!1,xe={editBefore:null,edit:null};function Cn(t,e,r=!1){const n=[];let a;if(r)try{xe.editBefore?.(t)}catch{}for(const s of t.elements){const c=document.querySelector(`[data-id="${s.target}"]`);if(!c){a=s.target;break}if([...Object.keys(s.attrsSet??{}),...s.attrsRemoved??[]].some(d=>!fr(d)||dr(c,d))){a=s.target;break}if(s.text!==void 0&&(!vr(c)||wr(c))){a=s.target;break}for(const[d,O]of Object.entries(s.attrsSet??{}))if(!Xt(c,d)){try{c.setAttribute(d,O)}catch{}Vt(c,d,O)}for(const d of s.attrsRemoved??[])Xt(c,d)||(c.removeAttribute(d),Vt(c,d,null));typeof s.text=="string"&&yr(c,s.text),n.push(s.target)}if(r)try{xe.edit?.(t.seq,n,a)}catch{}if(a!==void 0){N.post({__frame_patch_miss:{seq:t.seq}},e);return}try{document.dispatchEvent(new CustomEvent("claude:edit",{detail:{seq:t.seq,targets:n}}))}catch{}}function Vt(t,e,r){if(!(t instanceof HTMLInputElement))return;const n=e.toLowerCase();n==="checked"?t.checked=r!==null:n==="value"&&t.type!=="file"&&(t.value=r??"")}function Xt(t,e){const r=e.toLowerCase(),n=t;return r==="data-id"||(r==="value"||r==="checked")&&(n.__artifactSecret===!0||/^(password|hidden|file)$/.test(n.type??"")||/(^|\s)(cc-|one-time-code|current-password|new-password)/i.test(`${t.getAttribute("autocomplete")??""} ${n.autocomplete??""}`))}function Yt(t){const e=document.documentElement;t==="light"||t==="dark"?(e.dataset.theme=t,e.style.colorScheme=t,st=!0):st&&(delete e.dataset.theme,e.style.colorScheme="",st=!1)}var fe=new Map,it=null;function lt(){let t;const e={u:new Promise(r=>{t=r}),r:r=>{e.done=!0,t(r)},done:!1,nulled:!1};return e}function He(t,e){t.nulled=!0,t.ver=e,t.r(null)}function ct(t,e){for(const[r,n]of fe)n.done||(e&&n.asked?e(r,n):He(n,t))}var jn=Object.freeze(Object.assign(Object.create(null),{call:Function.prototype.call,apply:Function.prototype.apply,bind:Function.prototype.bind})),ut=!1,ft=(t,e)=>{let r=fe.get(t);if(r?.nulled&&ut)r=lt(),fe.set(t,r);else if(!r||r.done){r?.nulled&&$&&N.post({__frame_cap_telemetry:{kind:"cap-load-error",cap:t,phase:"install"}},$);return}const n=typeof e=="function"?Object.setPrototypeOf(e,jn):Object.assign(Object.create(null),e);typeof n.then=="function"&&delete n.then,r.want=void 0,r.r(Object.freeze(n))};function Jt(){const t=qt?.value??{};Wt(window,"claude",t);for(const e of Object.keys(Se)){if(t[e]!==void 0){Wt(t,e,t[e]);continue}fe.set(e,lt())}if(t.use===void 0){const e=r=>{if(typeof r!="string"||!Object.hasOwn(Se,r))return Promise.resolve(null);let n=fe.get(r);return n?(it&&(n.nulled||n.want!==void 0)&&(n=it(r,n)),n.asked=!0,n.u):Promise.resolve(t[r]??null)};try{Object.defineProperty(t,"use",{value:e,writable:!0,configurable:!0,enumerable:!1})}catch{}}return t}if(Ie==="framed"){let t;const e=Ae&&ce.test(Ae)?ue(Ae).catch(l=>{t={f:Ae,e:l}}):Promise.resolve(void 0),r=l=>{if(l.type==="auxclick"&&l.button!==1)return;const v=l.target,E=v&&v.closest?v.closest("a[href],area[href]"):null;if(!E)return;const I=E.getAttribute("href");if(!I)return;let j;try{j=new URL(I,document.baseURI)}catch{return}if((j.protocol==="http:"||j.protocol==="https:")&&j.origin!==location.origin){l.preventDefault();const L=(E.getAttribute("target")??"").toLowerCase(),K=l.type==="auxclick"||l.metaKey||l.ctrlKey||l.shiftKey||l.altKey||!["","_self","_top","_parent"].includes(L);N.post({__frame_nav:!0,url:j.href,newTab:K},"*")}};addEventListener("click",r,!0),addEventListener("auxclick",r,!0);const n={},a=l=>{l.isTrusted&&(n.pointer=!0)},s=l=>{l.isTrusted&&(n.click=!0)};addEventListener("pointermove",a,{capture:!0,passive:!0}),addEventListener("click",s,{capture:!0,passive:!0});const c={cb:null};addEventListener("keydown",l=>c.cb?.(l),!0);const d={cb:null};addEventListener("keydown",l=>d.cb?.(l));const O=an();e.then(l=>l?.installEscapeForward?.(c,v=>{$&&N.post(v,$)})),e.then(l=>{try{l?.installFocusKeep?.()}catch{}}),e.then(l=>{if(!l?.wireNav)return;const v=N.port("*");l.wireNav(v),removeEventListener("click",r,!0),removeEventListener("auxclick",r,!0),removeEventListener("pointermove",a,!0),removeEventListener("click",s,!0),l.wireEngagement?.(n,v,O)});let w=null;try{w=En()}catch{}const b=document.readyState==="loading"?new Promise(l=>document.addEventListener("DOMContentLoaded",()=>l(),{once:!0})):Promise.resolve();let m=null,R=null;try{R=Ir(window.name),m=Ct(null,R)}catch{}const M=Jt();let h=null;try{h=rn(M,m,{post:(l,v)=>N.post(l,v),dcl:b},R)}catch{}e.then(l=>{try{h&&l?.installHotExtras?.(h)}catch{}});let p=null;const D=()=>Array.isArray(p?.flags)&&p.flags.includes("frame_ldx_runtime")&&!!ke&&ce.test(ke)&&document.querySelector("script#an-form")!==null;try{h?.hydration(D,Dr)}catch{}let _=null,C=0;const P=N.on((l,v,E,I)=>{Ut(v)&&Ar(l)&&(I(),p=l.__frame_init,$=v,P(),clearTimeout(C),_?.())});if(at)for(const l of rt)try{l.endsWith(":*")||N.post({__frame_cred:at},l)}catch{}N.post({__frame_connect:!0},"*");try{h?.afterConnect()}catch{}const x=setTimeout,W=clearTimeout;let J=()=>NaN,X=()=>[];try{J=performance.now.bind(performance),X=performance.getEntriesByType.bind(performance)}catch{}let Te=0;const Le=()=>{try{N.post({__frame_alive:!0},"*")}catch{}Te=x(Le,Rn)},Oe=()=>W(Te);Le(),addEventListener("load",Oe,{once:!0});const H=new Promise(l=>{_=l,C=setTimeout(()=>{P(),l()},Bt)}),me=new WeakSet;addEventListener("error",l=>{l.target&&me.add(l.target)},!0);try{_n(jt(),at,()=>{e.then(l=>{try{l?.drawRefusedNotice?.()}catch{}})})}catch{}const qe=()=>{let l=[];try{l=[...document.querySelectorAll("link[rel~=stylesheet]:not([rel~=alternate])")].filter(E=>!E.sheet&&!E.disabled&&!me.has(E)&&E.getAttribute("href")&&URL.canParse(E.href)&&(!E.media||matchMedia(E.media).matches))}catch{}let v=l.length;return v===0?Promise.resolve():new Promise(E=>{try{const I=tt-J(),j=x(E,I>0?I<tt?I:tt:0),L=()=>{--v===0&&(W(j),E())};for(const K of l)K.addEventListener("load",L,{once:!0}),K.addEventListener("error",L,{once:!0})}catch{E()}})};b.then(()=>{try{w?.restore()}catch{}}),Promise.all([H,b,e]).then(([,,l])=>{if(p?.hostOverlays!==!0||!$)return;let v=!1;try{v=l?.declaresCover?.()===!0}catch{}N.post({__frame_layout:{cover:v}},$)});const oe={cb:null};N.on((l,v)=>{if(Ut(v)&&kr(l)){try{w?.promoted()}catch{}oe.cb?.()}}),H.then(async()=>{if(!p||!$){ct();try{h?.onNoInit()}catch{}return}if(Yt(p.theme),p.hostVisible===!1&&e.then(i=>i?.applyHostVisible?.(!1,O)),p.hostKeys!==void 0){const i=$,g=p.hostKeys;e.then(y=>y?.installHostKeyForward?.(d,g,k=>N.post(k,i)))}try{h?.onInit(p.hot,$)}catch{}const l=$,v=N.port(l),E=(i,g)=>N.post({__frame_cap_telemetry:{kind:"cap-load-error",cap:i,phase:g}},l),I=(i,g,y)=>{new Promise(k=>k(Pn(g,y))).then(k=>E(i,k),()=>E(i))},j=i=>N.post({__frame_cap_recovered:{cap:i}},l);let L=p.brokerGen;const K=()=>h?.boot.ver??"",Me=K(),Z=(i,g)=>{const y=K();W(g.t),g.want=y,g.t=x(()=>{g.done||He(g,y)},Bt),N.post({__frame_cap_want:!0,cap:i,ver:y},l)},Be=(i,g)=>{const y=fe.get(i.cap),k=Se[i.cap];if(!g||!y||y.done||y.want!==i.ver||!ce.test(k))return;if(W(y.t),y.want=void 0,L=i.brokerGen??L,i.ver!==K()){Z(i.cap,y);return}if(!i.grant||i.cap==="network"){He(y,i.ver);return}const Q=pe,G=pe={...Q,capabilities:{...Q.capabilities,[i.cap]:i.grant},capBudgets:{...Q.capBudgets,[i.cap]:{...Q.capBudgets[i.cap],...i.budgets}}};ue(k).then(ee=>{Re.has(k)&&j(i.cap),G.brokerGen=L,ut=!0;try{ee?.install?.(G)}catch{E(i.cap,"install")}finally{ut=!1}},ee=>I(i.cap,k,ee)).then(()=>{y.done||He(y,i.ver)})};let ae=!1,de=!1;N.on((i,g,y)=>{if(g!==l)return;try{if(h?.onShell(i))return}catch{}if(Tr(i)&&Yt(i.__frame_theme.theme),Xr(i)&&Be(i,y),y&&Yr(i)&&(L=i.brokerGen??L),Rr(i)){const G=i.__frame_host_visible.visible;e.then(ee=>ee?.applyHostVisible?.(G,O))}Sr(i)&&Cn(i.__frame_patch,l,y);const k=i?.__fc_mode;k&&typeof k=="object"&&!ae&&nt&&ce.test(nt)&&(ae=!0,ue(nt).then(G=>G.install?.(l,k.on===!0,v)).catch(()=>{}));const Q=i?.__ft_cmd;Q&&typeof Q=="object"&&!de&&ot&&ce.test(ot)&&(de=!0,ue(ot).then(G=>G.install?.(l,Q,v)).catch(()=>{}))});const Pe=Object.keys(p.capabilities??{}).filter(i=>Object.hasOwn(Se,i)).map(i=>[i,Se[i]]).filter(i=>typeof i[1]=="string"&&ce.test(i[1])),V=await Promise.allSettled(Pe.map(([,i])=>ue(i))),se=await e,B=l;if(se?.buildBoot||(t?I("_transforms",t.f,t.e):E("_transforms")),se?.buildBoot)try{pe=se.buildBoot(p,se.TRANSFORMS??{},{shellOrigin:B,mount:ft,hooks:xe,shell:v},i=>N.post({__frame_cap_telemetry:i},B))}catch{E("_transforms","install"),pe=$t(p,B,v)}else pe=$t(p,B,v);se?.buildBoot&&Re.has(Ae??"")&&j("_transforms");const ve=pe;ve.brokerGen=L,V.forEach((i,g)=>{const[y,k]=Pe[g];if(i.status!=="fulfilled"){I(y,k,i.reason);return}Re.has(k)&&j(y);try{i.value?.install?.(ve)}catch{E(y,"install")}});const Ne=p.capWants===!0;Ne&&(it=(i,g)=>{const y=K();if(!y)return g;if(!g.nulled)return g.want!==y&&Z(i,g),g;if(y===g.ver)return g;const k=lt();return fe.set(i,k),Z(i,k),k}),ct(Me,Ne&&K()!==Me?Z:void 0),await b,await qe(),Oe();const ie=ir(X,J);N.post(ie?{__frame_ready:!0,nav:ie}:{__frame_ready:!0},$),e.then(i=>{i?.installSizeReporter?.(B,oe,v),i?.installPaintReporter?.(v)});let Ce=!1;try{Ce=D()}catch{}ke&&Ce?ue(ke).then(i=>i?.boot?.({shellOrigin:l,build:ve.flags.has(nn),hot:h?.hot??null,carried:h?.carried(),presented:()=>h?.presented()??!0})).catch(()=>!1).then(i=>{h?.hydrated(),i!==!0?E("_ldx"):Re.has(ke)&&j("_ldx")}):h?.hydrated()})}else et&&(Jt(),Sn(et,rt,ue,{settle:ct,mount:ft}))})();</script><!-- /frame-runtime -->
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BIM Clash-to-RFI Engine — Devendra Gupta</title>
+<script src="./chart.umd.min.js.download"></script>
+<script src="./papaparse.min.js.download"></script>
+<script src="./three.min.js.download"></script><style></style>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:#07090f;--s1:#0d1017;--s2:#131825;--s3:#1a2035;
+  --border:#1e2a45;--border2:#243358;
+  --accent:#3b82f6;--accent2:#6366f1;--accent3:#8b5cf6;
+  --green:#22c55e;--red:#ef4444;--orange:#f97316;--yellow:#eab308;--cyan:#06b6d4;
+  --text:#e2e8f0;--muted:#64748b;--muted2:#94a3b8;
+  --r:10px;
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;overflow:hidden;}
+/* LAYOUT */
+.shell{display:flex;height:100vh;}
+.sidebar{width:200px;background:var(--s1);border-right:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0;z-index:10;}
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;}
+.topbar{height:56px;background:var(--s1);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 24px;gap:16px;flex-shrink:0;}
+.content{flex:1;overflow-y:auto;padding:20px 24px;}
+/* SIDEBAR */
+.logo{padding:18px 16px 14px;border-bottom:1px solid var(--border);}
+.logo-badge{font-size:10px;font-weight:800;letter-spacing:1px;color:var(--accent);background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25);padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:8px;}
+.logo-name{font-size:12px;font-weight:700;color:var(--text);}
+.logo-sub{font-size:10px;color:var(--muted);margin-top:1px;}
+.nav{padding:10px 8px;flex:1;display:flex;flex-direction:column;gap:2px;}
+.ni{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;cursor:pointer;color:var(--muted2);font-size:12px;font-weight:500;transition:all .15s;position:relative;}
+.ni:hover{background:var(--s2);color:var(--text);}
+.ni.active{background:rgba(59,130,246,.12);color:var(--accent);border:1px solid rgba(59,130,246,.2);}
+.ni-icon{font-size:15px;width:18px;text-align:center;}
+.ni-badge{margin-left:auto;background:var(--red);color:#fff;font-size:9px;font-weight:800;padding:1px 5px;border-radius:8px;min-width:18px;text-align:center;}
+.ni-status{width:6px;height:6px;border-radius:50%;margin-left:auto;}
+.ni-status.on{background:var(--green);box-shadow:0 0 6px var(--green);}
+.ni-status.off{background:var(--muted);}
+.sidebar-footer{padding:12px;border-top:1px solid var(--border);}
+.av{display:flex;align-items:center;gap:8px;}
+.av-c{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent3));display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;flex-shrink:0;}
+.av-n{font-size:11px;font-weight:700;}
+.av-r{font-size:9px;color:var(--muted);}
+/* TOPBAR */
+.page-title{font-size:15px;font-weight:700;}
+.breadcrumb{font-size:11px;color:var(--muted);margin-top:1px;}
+.topbar-right{margin-left:auto;display:flex;align-items:center;gap:10px;}
+/* STATUS PILL */
+.status-pill{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;}
+.sp-n8n{background:rgba(234,88,12,.1);color:#fb923c;border:1px solid rgba(234,88,12,.25);}
+.sp-ai{background:rgba(99,102,241,.1);color:#a5b4fc;border:1px solid rgba(99,102,241,.25);}
+.sp-live{background:rgba(34,197,94,.1);color:#4ade80;border:1px solid rgba(34,197,94,.25);}
+.dot{width:5px;height:5px;border-radius:50%;background:currentColor;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+/* BUTTONS */
+.btn{padding:7px 14px;border-radius:8px;font-size:12px;font-weight:600;border:none;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:5px;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:#2563eb;}
+.btn-ghost{background:var(--s2);color:var(--muted2);border:1px solid var(--border);}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent);}
+.btn-danger{background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.3);}
+.btn-success{background:rgba(34,197,94,.1);color:#4ade80;border:1px solid rgba(34,197,94,.25);}
+.btn-sm{padding:4px 10px;font-size:11px;}
+/* CARDS */
+.card{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);margin-bottom:16px;overflow:hidden;}
+.card-header{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;}
+.card-title{font-size:13px;font-weight:700;display:flex;align-items:center;gap:6px;}
+.card-body{padding:16px 18px;}
+/* GRID */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px;}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+/* STAT CARD */
+.stat{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:16px;position:relative;overflow:hidden;}
+.stat::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;}
+.stat.c::before{background:var(--red);}
+.stat.h::before{background:var(--orange);}
+.stat.m::before{background:var(--yellow);}
+.stat.l::before{background:var(--green);}
+.stat.t::before{background:var(--accent);}
+.stat-label{font-size:10px;font-weight:700;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;}
+.stat-value{font-size:30px;font-weight:800;line-height:1.1;margin:6px 0 4px;}
+.stat-sub{font-size:10px;color:var(--muted);}
+.stat-icon{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:28px;opacity:.15;}
+.stat.c .stat-value{color:var(--red);}
+.stat.h .stat-value{color:var(--orange);}
+.stat.m .stat-value{color:var(--yellow);}
+.stat.l .stat-value{color:var(--green);}
+.stat.t .stat-value{color:var(--accent);}
+/* TABLE */
+.tw{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;}
+th{padding:9px 14px;text-align:left;font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border);background:var(--s2);white-space:nowrap;}
+td{padding:10px 14px;border-bottom:1px solid var(--border);font-size:12px;vertical-align:middle;}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(59,130,246,.03);}
+/* BADGES */
+.badge{display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:20px;font-size:10px;font-weight:700;white-space:nowrap;}
+.bc{background:rgba(239,68,68,.1);color:#fca5a5;border:1px solid rgba(239,68,68,.25);}
+.bh{background:rgba(249,115,22,.1);color:#fdba74;border:1px solid rgba(249,115,22,.25);}
+.bm{background:rgba(234,179,8,.1);color:#fde047;border:1px solid rgba(234,179,8,.25);}
+.bl{background:rgba(34,197,94,.1);color:#86efac;border:1px solid rgba(34,197,94,.25);}
+.bo{background:rgba(59,130,246,.1);color:#93c5fd;border:1px solid rgba(59,130,246,.25);}
+.br{background:rgba(34,197,94,.1);color:#86efac;border:1px solid rgba(34,197,94,.25);}
+.be{background:rgba(6,182,212,.1);color:#67e8f9;border:1px solid rgba(6,182,212,.25);}
+.bf{background:rgba(239,68,68,.1);color:#f87171;border:1px solid rgba(239,68,68,.2);}
+/* FORMS */
+.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:12px;}
+label{font-size:11px;font-weight:600;color:var(--muted);}
+input,select,textarea{background:var(--s2);border:1px solid var(--border);color:var(--text);padding:8px 11px;border-radius:8px;font-size:12px;outline:none;transition:border .15s;width:100%;}
+input:focus,select:focus,textarea:focus{border-color:var(--accent);}
+input::placeholder,textarea::placeholder{color:var(--muted);}
+/* UPLOAD ZONE */
+.uz{border:2px dashed var(--border2);border-radius:var(--r);padding:36px 20px;text-align:center;cursor:pointer;transition:all .2s;background:var(--s2);}
+.uz:hover,.uz.drag{border-color:var(--accent);background:rgba(59,130,246,.05);}
+.uz-icon{font-size:40px;margin-bottom:10px;}
+/* LOG */
+.log{max-height:280px;overflow-y:auto;font-family:monospace;font-size:11px;background:var(--s2);border-radius:8px;padding:12px;line-height:1.9;border:1px solid var(--border);}
+.ll{display:flex;gap:8px;}
+.ts{color:var(--muted);flex-shrink:0;}
+.ok{color:var(--green);}
+.wi{color:var(--yellow);}
+.er{color:var(--red);}
+.in{color:var(--accent);}
+.n8{color:var(--orange);}
+.ai{color:var(--accent3);}
+/* PROGRESS */
+.pbar{height:5px;background:var(--s2);border-radius:3px;overflow:hidden;margin:8px 0;}
+.pfill{height:100%;border-radius:3px;transition:width .4s;background:linear-gradient(90deg,var(--accent),var(--accent3));}
+/* STEP TRACK */
+.steps{display:flex;gap:0;margin-bottom:16px;}
+.step{flex:1;text-align:center;position:relative;}
+.step::after{content:'';position:absolute;top:14px;left:50%;width:100%;height:1px;background:var(--border);}
+.step:last-child::after{display:none;}
+.step-dot{width:28px;height:28px;border-radius:50%;border:1px solid var(--border);background:var(--s2);display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;margin-bottom:5px;position:relative;z-index:1;transition:all .3s;}
+.step.done .step-dot{background:var(--green);border-color:var(--green);color:#fff;}
+.step.active .step-dot{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 0 12px rgba(59,130,246,.4);}
+.step-label{font-size:9px;color:var(--muted);font-weight:600;}
+/* EMP CARDS */
+.egrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.ecard{background:var(--s2);border:1px solid var(--border);border-radius:var(--r);padding:14px;}
+.eavatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;flex-shrink:0;}
+/* CHIP */
+.chip{display:inline-block;padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600;background:var(--s3);color:var(--muted2);border:1px solid var(--border);}
+/* CANVAS (3D) */
+#canvas3d{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;}
+.vis3d-wrap{position:relative;height:240px;border-radius:10px;overflow:hidden;background:var(--s2);border:1px solid var(--border);}
+/* N8N STEPS */
+.n8n-flow{display:flex;align-items:center;gap:0;overflow-x:auto;padding:16px 0;}
+.n8n-node{background:var(--s2);border:1px solid var(--border2);border-radius:10px;padding:10px 14px;text-align:center;min-width:100px;flex-shrink:0;position:relative;}
+.n8n-node.active{border-color:var(--orange);box-shadow:0 0 14px rgba(249,115,22,.2);}
+.n8n-node .nn-icon{font-size:20px;margin-bottom:4px;}
+.n8n-node .nn-label{font-size:10px;font-weight:700;color:var(--text);}
+.n8n-node .nn-sub{font-size:9px;color:var(--muted);margin-top:1px;}
+.n8n-arrow{width:32px;height:2px;background:linear-gradient(90deg,var(--border2),var(--accent));flex-shrink:0;position:relative;}
+.n8n-arrow::after{content:'▶';position:absolute;right:-4px;top:-5px;color:var(--accent);font-size:10px;}
+/* MODAL */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:200;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px);}
+.modal-bg.open{display:flex;}
+.modal{background:var(--s1);border:1px solid var(--border2);border-radius:14px;padding:24px;width:460px;max-width:95vw;max-height:90vh;overflow-y:auto;}
+/* NOTIF */
+#notifs{position:fixed;top:16px;right:16px;z-index:300;display:flex;flex-direction:column;gap:8px;}
+.notif{background:var(--s1);border:1px solid var(--border2);border-radius:10px;padding:10px 16px;font-size:12px;font-weight:500;display:flex;align-items:center;gap:8px;box-shadow:0 8px 32px rgba(0,0,0,.5);animation:sli .3s ease;}
+@keyframes sli{from{transform:translateX(100%);opacity:0}to{transform:translateX(0);opacity:1}}
+.nok{border-color:var(--green);color:#86efac;}
+.ner{border-color:var(--red);color:#fca5a5;}
+.nin{border-color:var(--accent);color:#93c5fd;}
+/* GLOW ACCENTS */
+.glow-line{height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.4;margin:16px 0;}
+/* PAGE TRANSITION */
+.page{display:none;animation:fade .2s ease;}
+.page.active{display:block;}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+/* SCROLLBAR */
+::-webkit-scrollbar{width:4px;height:4px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px;}
+/* EMPTY */
+.empty{text-align:center;padding:40px 20px;color:var(--muted);}
+.empty-icon{font-size:36px;margin-bottom:10px;opacity:.5;}
+/* INLINE INFO BOX */
+.info-box{background:rgba(59,130,246,.06);border:1px solid rgba(59,130,246,.2);border-radius:8px;padding:10px 14px;font-size:11px;color:#93c5fd;margin-bottom:14px;line-height:1.6;}
+.warn-box{background:rgba(234,179,8,.06);border:1px solid rgba(234,179,8,.2);border-radius:8px;padding:10px 14px;font-size:11px;color:#fde047;margin-bottom:14px;line-height:1.6;}
+</style>
+</head>
+<body>
+
+<div id="notifs"></div>
+
+<!-- EMPLOYEE MODAL -->
+<div class="modal-bg" id="empModal">
+  <div class="modal">
+    <div style="font-size:14px;font-weight:700;margin-bottom:18px;display:flex;justify-content:space-between;align-items:center">
+      <span id="modalTitle">👤 Add Employee</span>
+      <button class="btn btn-ghost btn-sm" onclick="closeEmpModal()">✕</button>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="fg"><label>Full Name *</label><input id="eName" placeholder="Rajesh Kumar"></div>
+      <div class="fg"><label>Email *</label><input id="eEmail" type="email" placeholder="rajesh@firm.com"></div>
+      <div class="fg"><label>Discipline *</label>
+        <select id="eDisc">
+          <option value="">Select...</option>
+          <option>MEP</option><option>Structural</option><option>Electrical</option>
+          <option>Fire Protection</option><option>Fire Alarm</option>
+          <option>Plumbing</option><option>Architectural</option><option>Civil</option>
+        </select>
+      </div>
+      <div class="fg"><label>Role</label><input id="eRole" placeholder="Lead MEP Engineer"></div>
+      <div class="fg"><label>Phone</label><input id="ePhone" placeholder="+91 99999 99999"></div>
+      <div class="fg"><label>Company</label><input id="eCompany" placeholder="Consulting firm"></div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:8px">
+      <button class="btn btn-ghost" onclick="closeEmpModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="saveEmp()">💾 Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="shell">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-badge">⚡ BIM ENGINE</div>
+      <div class="logo-name">Devendra Gupta</div>
+      <div class="logo-sub">BIM Automation Engineer</div>
+    </div>
+    <nav class="nav">
+      <div class="ni active" onclick="go('dash',this)"><span class="ni-icon">📊</span>Dashboard</div>
+      <div class="ni" onclick="go('upload',this)"><span class="ni-icon">📂</span>Upload XML</div>
+      <div class="ni" onclick="go('rfis',this)"><span class="ni-icon">📋</span>RFI Tracker<span class="ni-badge" id="openCount">0</span></div>
+      <div class="ni" onclick="go('employees',this)"><span class="ni-icon">👥</span>Employees</div>
+      <div class="ni" onclick="go('n8n',this)"><span class="ni-icon">⚙️</span>n8n Workflow</div>
+      <div class="ni" onclick="go('email',this)"><span class="ni-icon">📧</span>Email Log</div>
+      <div class="ni" onclick="go('connect',this)"><span class="ni-icon">🔗</span>Setup Guide</div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="av">
+        <div class="av-c">DG</div>
+        <div><div class="av-n">Devendra Gupta</div><div class="av-r">1st Year · JUT</div></div>
+      </div>
+      <div style="margin-top:10px;display:flex;flex-direction:column;gap:4px">
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:10px">
+          <span style="color:var(--muted)">n8n cloud</span>
+          <span id="n8n-dot" class="ni-status off"></span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:10px">
+          <span style="color:var(--muted)">Groq AI</span>
+          <span id="groq-dot" class="ni-status off"></span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;font-size:10px">
+          <span style="color:var(--muted)">SMTP Email</span>
+          <span id="smtp-dot" class="ni-status off"></span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <!-- ═══════════ DASHBOARD ═══════════ -->
+    <div class="topbar" id="tb-dash" style="display: flex;">
+      <div><div class="page-title">📊 Dashboard</div><div class="breadcrumb">BIM Clash-to-RFI Automation Engine</div></div>
+      <div class="topbar-right">
+        <span class="status-pill sp-n8n"><span class="dot"></span>n8n Cloud</span>
+        <span class="status-pill sp-ai"><span class="dot"></span>Groq AI</span>
+        <span class="status-pill sp-live"><span class="dot"></span>Live</span>
+        <button class="btn btn-primary btn-sm" onclick="go('upload',document.querySelectorAll('.ni')[1])" fdprocessedid="i72s7">+ Upload XML</button>
+      </div>
+    </div>
+    <div class="content page active" id="pg-dash">
+      <div class="g4">
+        <div class="stat c"><div class="stat-label">Critical</div><div class="stat-value" id="sc">0</div><div class="stat-sub">Immediate action</div><div class="stat-icon">🔴</div></div>
+        <div class="stat h"><div class="stat-label">High</div><div class="stat-value" id="sh">0</div><div class="stat-sub">Within 3 days</div><div class="stat-icon">🟠</div></div>
+        <div class="stat m"><div class="stat-label">Medium</div><div class="stat-value" id="sm">0</div><div class="stat-sub">Within 1 week</div><div class="stat-icon">🟡</div></div>
+        <div class="stat l"><div class="stat-label">Low</div><div class="stat-value" id="sl">0</div><div class="stat-sub">Next cycle</div><div class="stat-icon">🟢</div></div>
+      </div>
+      <!-- 3D VISUALIZATION -->
+      <div class="card">
+        <div class="card-header"><div class="card-title">🏗️ 3D Clash Distribution — Greenfield Tower</div><span style="font-size:10px;color:var(--muted)">Auto-rotating · Live data</span></div>
+        <div class="card-body" style="padding:0">
+          <div class="vis3d-wrap" id="vis3d"><canvas id="canvas3d" width="1041" height="240" style="width: 1041px; height: 240px;"></canvas></div>
+        </div>
+      </div>
+      <div class="g2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">📈 Severity Breakdown</div></div>
+          <div class="card-body"><canvas id="sevChart" height="296" style="display: block; box-sizing: border-box; height: 200px; width: 475px;" width="706"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">🔧 Discipline Conflicts</div></div>
+          <div class="card-body"><canvas id="discChart" height="296" width="706" style="display: block; box-sizing: border-box; height: 200px; width: 475px;"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header"><div class="card-title">📋 Latest RFIs</div><button class="btn btn-ghost btn-sm" onclick="go('rfis',document.querySelectorAll('.ni')[2])" fdprocessedid="qny91">View all →</button></div>
+        <div class="card-body" style="padding:0">
+          <div class="tw"><table>
+            <thead><tr><th>RFI No.</th><th>Severity</th><th>Discipline</th><th>Assigned To</th><th>Email</th><th>Status</th></tr></thead>
+            <tbody id="dashRFIs"><tr><td colspan="6" class="empty"><div class="empty-icon">📭</div>No RFIs yet</td></tr></tbody>
+          </table></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ UPLOAD ═══════════ -->
+    <div class="topbar" id="tb-upload" style="display:none">
+      <div><div class="page-title">📂 Upload Clash XML</div><div class="breadcrumb">Step 1 of the automated pipeline</div></div>
+    </div>
+    <div class="content page" id="pg-upload">
+      <!-- STEP TRACKER -->
+      <div class="card">
+        <div class="card-body">
+          <div class="steps" id="stepTrack">
+            <div class="step active" id="step1"><div class="step-dot">1</div><div class="step-label">Upload XML</div></div>
+            <div class="step" id="step2"><div class="step-dot">2</div><div class="step-label">Parse &amp; Validate</div></div>
+            <div class="step" id="step3"><div class="step-dot">3</div><div class="step-label">AI Generates</div></div>
+            <div class="step" id="step4"><div class="step-dot">4</div><div class="step-label">PDFs Built</div></div>
+            <div class="step" id="step5"><div class="step-dot">5</div><div class="step-label">Emails Sent</div></div>
+          </div>
+          <div class="pbar"><div class="pfill" id="mainProg" style="width:0%"></div></div>
+          <div style="text-align:right;font-size:10px;color:var(--muted)" id="progLabel">0 of 0 clashes processed</div>
+        </div>
+      </div>
+      <div class="g2">
+        <div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">📁 Upload XML File</div></div>
+            <div class="card-body">
+              <div class="uz" id="dz" onclick="document.getElementById('xmlF').click()" ondragover="dvr(event)" ondragleave="dvl(event)" ondrop="ddr(event)">
+                <div class="uz-icon">📄</div>
+                <div style="font-size:14px;font-weight:700;margin-bottom:4px">Drop Navisworks XML here</div>
+                <div style="font-size:11px;color:var(--muted)">or click to browse · .xml files only</div>
+              </div>
+              <input type="file" id="xmlF" accept=".xml" style="display:none" onchange="loadXML(this)">
+              <div id="xmlLoaded" style="display:none;margin-top:12px;background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.2);border-radius:8px;padding:10px 14px;">
+                <div style="display:flex;align-items:center;justify-content:space-between">
+                  <div><div style="font-weight:700;font-size:12px" id="xmlName">—</div><div style="font-size:10px;color:var(--muted)" id="xmlInfo">—</div></div>
+                  <span style="color:var(--green);font-size:18px">✅</span>
+                </div>
+              </div>
+              <div style="margin-top:12px">
+                <div style="font-size:11px;color:var(--muted);margin-bottom:6px;font-weight:600">OR PASTE XML</div>
+                <textarea id="xmlPaste" placeholder="Paste Navisworks clash XML here..." style="height:120px;resize:vertical;font-family:monospace;font-size:10px;"></textarea>
+                <button class="btn btn-ghost btn-sm" style="margin-top:6px" onclick="loadPasted()">Parse XML →</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">⚙️ Engine Config</div></div>
+            <div class="card-body">
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+                <div class="fg"><label>Project Name</label><input id="pName" placeholder="Auto from XML"></div>
+                <div class="fg"><label>Project No.</label><input id="pNum" placeholder="Auto from XML"></div>
+              </div>
+              <div class="fg"><label>SMTP Email (Gmail)</label><input id="smtpE" placeholder="yourname@gmail.com" type="email"></div>
+              <div class="fg"><label>Gmail App Password</label><input id="smtpP" type="password" placeholder="xxxx xxxx xxxx xxxx"></div>
+              <div class="info-box">💡 Gmail → Google Account → Security → 2-Step Verification → App Passwords → Create one for "Mail"</div>
+              <div class="fg"><label>n8n Webhook URL</label><input id="n8nUrl" placeholder="https://your-instance.n8n.cloud/webhook/bim-rfi"></div>
+              <button class="btn btn-primary" style="width:100%;margin-top:4px" onclick="runEngine()" id="runBtn">🚀 Run Engine — Generate RFIs &amp; Send Emails</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card" id="progCard">
+            <div class="card-header"><div class="card-title">⚡ Live Processing Log</div><span id="progPct" style="font-size:11px;color:var(--muted)">Ready</span></div>
+            <div class="card-body" style="padding:12px">
+              <div class="log" id="engLog"><div class="ll"><span class="ts">--:--</span><span class="in">Waiting for XML upload...</span></div></div>
+            </div>
+          </div>
+          <div class="card" id="summCard" style="display:none">
+            <div class="card-header"><div class="card-title">✅ Run Summary</div></div>
+            <div class="card-body">
+              <div class="g3" style="margin-bottom:0">
+                <div class="stat t" style="padding:12px"><div class="stat-label">Total</div><div class="stat-value" id="sumTotal" style="font-size:22px">0</div></div>
+                <div class="stat l" style="padding:12px"><div class="stat-label">Emails Sent</div><div class="stat-value" id="sumSent" style="font-size:22px">0</div></div>
+                <div class="stat c" style="padding:12px"><div class="stat-label">Critical</div><div class="stat-value" id="sumCrit" style="font-size:22px">0</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ RFI TRACKER ═══════════ -->
+    <div class="topbar" id="tb-rfis" style="display:none">
+      <div><div class="page-title">📋 RFI Tracker</div><div class="breadcrumb" id="rfiSub">All generated RFIs</div></div>
+      <div class="topbar-right">
+        <select id="fSev" onchange="filterRFIs()" style="background:var(--s2);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:8px;font-size:11px">
+          <option value="">All Severities</option><option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+        </select>
+        <select id="fSt" onchange="filterRFIs()" style="background:var(--s2);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:8px;font-size:11px">
+          <option value="">All Statuses</option><option>Open</option><option>Resolved</option>
+        </select>
+        <button class="btn btn-ghost btn-sm" onclick="exportCSV()">⬇ Export CSV</button>
+      </div>
+    </div>
+    <div class="content page" id="pg-rfis">
+      <div class="card">
+        <div class="card-body" style="padding:0">
+          <div class="tw"><table>
+            <thead><tr><th>RFI No.</th><th>Clash ID</th><th>Name</th><th>Severity</th><th>Discipline</th><th>Level / Grid</th><th>Assigned To</th><th>Deadline</th><th>Email</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody id="rfiTbl"><tr><td colspan="11" class="empty"><div class="empty-icon">📭</div>No RFIs yet</td></tr></tbody>
+          </table></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ EMPLOYEES ═══════════ -->
+    <div class="topbar" id="tb-employees" style="display:none">
+      <div><div class="page-title">👥 Employee Manager</div><div class="breadcrumb" id="empSub">Manage discipline routing</div></div>
+      <div class="topbar-right">
+        <button class="btn btn-ghost btn-sm" onclick="document.getElementById('csvF').click()">📥 Import CSV</button>
+        <input type="file" id="csvF" accept=".csv" style="display:none" onchange="importCSV(this)">
+        <button class="btn btn-ghost btn-sm" onclick="exportEmpCSV()">⬇ Export</button>
+        <button class="btn btn-primary btn-sm" onclick="openEmpModal()">+ Add Employee</button>
+      </div>
+    </div>
+    <div class="content page" id="pg-employees">
+      <div class="warn-box">📋 <strong>CSV Format:</strong> name, email, discipline, role, phone, company<br>
+      Example: <code>Rajesh Kumar,rajesh@firm.com,MEP,Lead MEP Engineer,+91 98765 43210,MEP Consultants</code></div>
+      <div class="egrid" id="empGrid">
+        <div class="empty" style="grid-column:1/-1"><div class="empty-icon">👥</div>No employees added. Import CSV or add manually.</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ N8N WORKFLOW ═══════════ -->
+    <div class="topbar" id="tb-n8n" style="display:none">
+      <div><div class="page-title">⚙️ n8n Workflow</div><div class="breadcrumb">Full automation pipeline — n8n Cloud</div></div>
+      <div class="topbar-right">
+        <button class="btn btn-success btn-sm" onclick="testN8N()">▶ Test Webhook</button>
+      </div>
+    </div>
+    <div class="content page" id="pg-n8n">
+      <div class="info-box">This shows exactly how your n8n cloud workflow connects to this dashboard. Each node below maps to a real n8n node you need to create.</div>
+      <!-- FLOW VISUALIZATION -->
+      <div class="card">
+        <div class="card-header"><div class="card-title">🔄 n8n Automation Flow — Full Pipeline</div></div>
+        <div class="card-body">
+          <div class="n8n-flow" id="n8nFlow">
+            <div class="n8n-node active" id="nn0"><div class="nn-icon">🔗</div><div class="nn-label">Webhook</div><div class="nn-sub">Trigger</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn1"><div class="nn-icon">📄</div><div class="nn-label">Parse XML</div><div class="nn-sub">Code node</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn2"><div class="nn-icon">🔀</div><div class="nn-label">Split Items</div><div class="nn-sub">Loop over clashes</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn3"><div class="nn-icon">🤖</div><div class="nn-label">Groq AI</div><div class="nn-sub">Generate RFI</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn4"><div class="nn-icon">📄</div><div class="nn-label">Build PDF</div><div class="nn-sub">Python webhook</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn5"><div class="nn-icon">📧</div><div class="nn-label">Send Email</div><div class="nn-sub">Gmail node</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn6"><div class="nn-icon">📊</div><div class="nn-label">Update Sheet</div><div class="nn-sub">Google Sheets</div></div>
+            <div class="n8n-arrow"></div>
+            <div class="n8n-node" id="nn7"><div class="nn-icon">📱</div><div class="nn-label">Telegram</div><div class="nn-sub">Critical alerts</div></div>
+          </div>
+          <div class="pbar" style="margin-top:12px"><div class="pfill" id="n8nProg" style="width:0%"></div></div>
+        </div>
+      </div>
+      <!-- NODE DETAILS -->
+      <div class="g2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">📋 Step-by-Step Setup in n8n Cloud</div></div>
+          <div class="card-body" style="font-size:12px;line-height:1.8">
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="border-left:2px solid var(--orange);padding-left:12px">
+                <div style="font-weight:700;color:var(--orange)">Node 1 — Webhook Trigger</div>
+                <div style="color:var(--muted2)">Create → Add Node → Webhook<br>Method: POST · Path: <code>/bim-rfi</code><br>Copy the URL — paste it in Upload XML tab</div>
+              </div>
+              <div style="border-left:2px solid var(--accent);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent)">Node 2 — Parse XML (Code node)</div>
+                <div style="color:var(--muted2)">Language: JavaScript<br>Parse <code>{{$json.xml}}</code> with DOMParser<br>Extract all clash objects into array</div>
+              </div>
+              <div style="border-left:2px solid var(--accent2);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent2)">Node 3 — Split In Batches</div>
+                <div style="color:var(--muted2)">Loop over each clash item<br>Batch size: 1 (one clash at a time)<br>Prevents rate limit on Groq</div>
+              </div>
+              <div style="border-left:2px solid var(--accent3);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent3)">Node 4 — HTTP Request (Groq AI)</div>
+                <div style="color:var(--muted2)">URL: <code>https://api.groq.com/openai/v1/chat/completions</code><br>Auth: Bearer token (your Groq key)<br>Body: JSON with clash data as prompt</div>
+              </div>
+              <div style="border-left:2px solid var(--cyan);padding-left:12px">
+                <div style="font-weight:700;color:var(--cyan)">Node 5 — Gmail Node</div>
+                <div style="color:var(--muted2)">Connect your Gmail account<br>To: <code>{{$json.assigned_email}}</code><br>Subject: <code>[{{$json.severity}}] RFI - {{$json.clash_id}}</code><br>Attach PDF from previous node</div>
+              </div>
+              <div style="border-left:2px solid var(--green);padding-left:12px">
+                <div style="font-weight:700;color:var(--green)">Node 6 — Google Sheets</div>
+                <div style="color:var(--muted2)">Append row to your tracker sheet<br>Map: RFI No., Severity, Assigned, Status<br>Auto-updates clash status dashboard</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><div class="card-title">🤖 Groq AI — Finetuning Guide</div></div>
+          <div class="card-body" style="font-size:12px;line-height:1.8">
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="background:rgba(139,92,246,.06);border:1px solid rgba(139,92,246,.2);border-radius:8px;padding:10px 14px">
+                <div style="font-weight:700;color:var(--accent3);margin-bottom:4px">What finetuning does here</div>
+                <div style="color:var(--muted2)">Trains the model to write RFIs in YOUR exact format — same headings, same code references, same tone. Without finetuning it writes generic text. With it, every RFI sounds like a senior BIM coordinator from your team.</div>
+              </div>
+              <div style="border-left:2px solid var(--accent3);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent3)">Step 1 — Collect training data</div>
+                <div style="color:var(--muted2)">Gather 20-50 real RFI documents your company has written. These become your training examples.</div>
+              </div>
+              <div style="border-left:2px solid var(--accent3);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent3)">Step 2 — Format as JSONL</div>
+                <div style="color:var(--muted2)">Convert each RFI into:<br><code>{"messages":[{"role":"user","content":"clash data..."},{"role":"assistant","content":"RFI text..."}]}</code></div>
+              </div>
+              <div style="border-left:2px solid var(--accent3);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent3)">Step 3 — Run on Google Colab (free)</div>
+                <div style="color:var(--muted2)">Use Unsloth + Llama 3.1 8B<br>Runtime: T4 GPU · ~45 minutes<br>Upload your JSONL · run notebook · done</div>
+              </div>
+              <div style="border-left:2px solid var(--accent3);padding-left:12px">
+                <div style="font-weight:700;color:var(--accent3)">Step 4 — Deploy via Groq</div>
+                <div style="color:var(--muted2)">Upload finetuned model to Groq<br>Replace model name in n8n HTTP node<br>Every RFI now matches your exact style</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- WEBHOOK TEST -->
+      <div class="card">
+        <div class="card-header"><div class="card-title">🧪 Webhook Connection Test</div></div>
+        <div class="card-body">
+          <div class="fg"><label>Your n8n Webhook URL</label><input id="n8nTestUrl" placeholder="https://your-instance.n8n.cloud/webhook/bim-rfi"></div>
+          <button class="btn btn-ghost" onclick="testN8N()">▶ Send Test Payload</button>
+          <div id="testResult" style="margin-top:10px;font-size:11px;color:var(--muted)"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ EMAIL LOG ═══════════ -->
+    <div class="topbar" id="tb-email" style="display:none">
+      <div><div class="page-title">📧 Email Delivery Log</div><div class="breadcrumb">All RFI emails sent to engineers</div></div>
+    </div>
+    <div class="content page" id="pg-email">
+      <div class="g3">
+        <div class="stat t"><div class="stat-label">Total Sent</div><div class="stat-value" id="eTotal" style="font-size:22px">0</div></div>
+        <div class="stat l"><div class="stat-label">Delivered</div><div class="stat-value" id="eOk" style="font-size:22px">0</div></div>
+        <div class="stat c"><div class="stat-label">Failed</div><div class="stat-value" id="eFail" style="font-size:22px">0</div></div>
+      </div>
+      <div class="card">
+        <div class="card-body" style="padding:0">
+          <div class="tw"><table>
+            <thead><tr><th>Time</th><th>RFI No.</th><th>To</th><th>Email</th><th>Subject</th><th>PDF</th><th>Status</th></tr></thead>
+            <tbody id="emailTbl"><tr><td colspan="7" class="empty"><div class="empty-icon">📬</div>No emails yet</td></tr></tbody>
+          </table></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════ SETUP GUIDE ═══════════ -->
+    <div class="topbar" id="tb-connect" style="display:none">
+      <div><div class="page-title">🔗 Full Setup Guide</div><div class="breadcrumb">Connect n8n · Groq · Finetuning · Email · Telegram</div></div>
+    </div>
+    <div class="content page" id="pg-connect">
+      <div class="g2">
+        <div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">✅ Connection Status</div></div>
+            <div class="card-body">
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:var(--s2);border-radius:8px;border:1px solid var(--border)">
+                  <div><div style="font-weight:600;font-size:12px">⚙️ n8n Cloud</div><div style="font-size:10px;color:var(--muted)" id="n8nStatus">Not configured</div></div>
+                  <button class="btn btn-ghost btn-sm" onclick="go('n8n',document.querySelectorAll('.ni')[4])">Configure →</button>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:var(--s2);border-radius:8px;border:1px solid var(--border)">
+                  <div><div style="font-weight:600;font-size:12px">🤖 Groq AI</div><div style="font-size:10px;color:var(--muted)" id="groqStatus">Not configured</div></div>
+                  <button class="btn btn-ghost btn-sm" onclick="go('upload',document.querySelectorAll('.ni')[1])">Configure →</button>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:var(--s2);border-radius:8px;border:1px solid var(--border)">
+                  <div><div style="font-weight:600;font-size:12px">📧 SMTP Email</div><div style="font-size:10px;color:var(--muted)" id="smtpStatus">Not configured</div></div>
+                  <button class="btn btn-ghost btn-sm" onclick="go('upload',document.querySelectorAll('.ni')[1])">Configure →</button>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:var(--s2);border-radius:8px;border:1px solid var(--border)">
+                  <div><div style="font-weight:600;font-size:12px">📱 Telegram Bot</div><div style="font-size:10px;color:var(--muted)">Optional · for critical alerts</div></div>
+                  <span class="badge bl">Optional</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">🚀 Quick Start — 5 Steps</div></div>
+            <div class="card-body" style="font-size:12px;line-height:2">
+              <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px"><span style="background:var(--accent);color:#fff;font-size:10px;font-weight:800;padding:1px 7px;border-radius:10px;flex-shrink:0;margin-top:2px">1</span><div><strong>Add your employees</strong> — Go to Employees tab. Add each engineer with their discipline. This controls who gets which RFI.</div></div>
+              <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px"><span style="background:var(--accent);color:#fff;font-size:10px;font-weight:800;padding:1px 7px;border-radius:10px;flex-shrink:0;margin-top:2px">2</span><div><strong>Get Groq API key</strong> — Go to <code>console.groq.com</code> → API Keys → Create key → Paste in Upload tab</div></div>
+              <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px"><span style="background:var(--accent);color:#fff;font-size:10px;font-weight:800;padding:1px 7px;border-radius:10px;flex-shrink:0;margin-top:2px">3</span><div><strong>Set up Gmail App Password</strong> — Google Account → Security → 2FA → App Passwords → Mail → Generate</div></div>
+              <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px"><span style="background:var(--accent);color:#fff;font-size:10px;font-weight:800;padding:1px 7px;border-radius:10px;flex-shrink:0;margin-top:2px">4</span><div><strong>Set up n8n Cloud workflow</strong> — See n8n Workflow tab for exact node-by-node setup</div></div>
+              <div style="display:flex;align-items:flex-start;gap:10px"><span style="background:var(--green);color:#fff;font-size:10px;font-weight:800;padding:1px 7px;border-radius:10px;flex-shrink:0;margin-top:2px">5</span><div><strong>Upload clash XML → Run</strong> — Go to Upload XML tab, drop your file, click Run Engine</div></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">📋 n8n Groq AI Node — Exact Code</div></div>
+            <div class="card-body">
+              <div style="background:var(--s2);border-radius:8px;padding:12px;font-family:monospace;font-size:10px;color:#93c5fd;line-height:1.8;overflow-x:auto;border:1px solid var(--border)">
+// n8n HTTP Request node body (JSON)<br>
+{<br>
+&nbsp;&nbsp;"model": "llama-3.1-8b-instant",<br>
+&nbsp;&nbsp;"max_tokens": 1000,<br>
+&nbsp;&nbsp;"messages": [{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"role": "system",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"content": "You are a senior BIM coordinator. Write professional RFIs in JSON format only."<br>
+&nbsp;&nbsp;},{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"role": "user",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"content": "Clash: {{$json.clash_id}} | Type: {{$json.type}} | Severity: {{$json.severity}} | Element A: {{$json.element_a}} | Element B: {{$json.element_b}} | Description: {{$json.description}}"<br>
+&nbsp;&nbsp;}]<br>
+}
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">📧 Gmail Node Setup</div></div>
+            <div class="card-body" style="font-size:12px;line-height:1.8">
+              <div style="background:var(--s2);border-radius:8px;padding:12px;font-family:monospace;font-size:10px;color:#86efac;line-height:2;border:1px solid var(--border)">
+To: {{$json.assigned_email}}<br>
+Subject: [{{$json.severity}}] {{$json.rfi_number}} — Action Required<br>
+Body: Dear {{$json.assigned_name}},<br>
+&nbsp;A new RFI has been generated for your review...<br>
+&nbsp;Clash ID: {{$json.clash_id}}<br>
+&nbsp;Location: {{$json.level}}, Grid {{$json.grid}}<br>
+&nbsp;Response required by: {{$json.deadline}}<br>
+Attachment: {{$binary.pdf}}
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header"><div class="card-title">📱 Telegram Alert — Critical Only</div></div>
+            <div class="card-body" style="font-size:12px">
+              <div class="info-box">Add an IF node before Telegram: only trigger when <code>{{$json.severity}} = "Critical"</code></div>
+              <div style="background:var(--s2);border-radius:8px;padding:12px;font-family:monospace;font-size:10px;color:#fde047;line-height:2;border:1px solid var(--border)">
+🚨 CRITICAL CLASH ALERT<br>
+RFI: {{$json.rfi_number}}<br>
+Clash: {{$json.clash_id}}<br>
+Assigned: {{$json.assigned_name}}<br>
+Deadline: {{$json.deadline}}<br>
+→ IMMEDIATE ACTION REQUIRED
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── STATE ──────────────────────────────────────────────
+let emps = JSON.parse(localStorage.getItem('b_emps')||'[]');
+let rfis = JSON.parse(localStorage.getItem('b_rfis')||'[]');
+let emails = JSON.parse(localStorage.getItem('b_emails')||'[]');
+let xmlData = null;
+let editIdx = -1;
+let sChart, dChart;
+
+const ACOLORS = ['#3b82f6','#8b5cf6','#f97316','#22c55e','#ef4444','#06b6d4','#f472b6','#eab308'];
+const DCOLORS = {MEP:'#3b82f6',Structural:'#8b5cf6',Electrical:'#eab308','Fire Protection':'#f97316','Fire Alarm':'#ef4444',Plumbing:'#06b6d4',Architectural:'#f472b6',Civil:'#22c55e'};
+
+// ── 3D VISUALIZATION ───────────────────────────────────
+function init3D(){
+  const wrap = document.getElementById('vis3d');
+  const canvas = document.getElementById('canvas3d');
+  const W = wrap.offsetWidth, H = 240;
+  canvas.width = W; canvas.height = H;
+  const renderer = new THREE.WebGLRenderer({canvas,alpha:true,antialias:true});
+  renderer.setSize(W,H);
+  renderer.setClearColor(0x000000,0);
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(45,W/H,0.1,1000);
+  camera.position.set(0,8,20);
+  camera.lookAt(0,0,0);
+
+  // Building floors
+  const floors = [{y:0,label:'B1'},{y:2,label:'L1'},{y:4,label:'L2'},{y:6,label:'L3'},{y:8,label:'L4'},{y:10,label:'L5'}];
+  floors.forEach(f=>{
+    const geo = new THREE.BoxGeometry(12,0.15,8);
+    const mat = new THREE.MeshBasicMaterial({color:0x1e2a45,transparent:true,opacity:.6});
+    const mesh = new THREE.Mesh(geo,mat);
+    mesh.position.y = f.y;
+    scene.add(mesh);
+    const edges = new THREE.EdgesGeometry(geo);
+    const line = new THREE.LineSegments(edges,new THREE.LineBasicMaterial({color:0x243358,transparent:true,opacity:.4}));
+    line.position.y = f.y;
+    scene.add(line);
+  });
+
+  // Clash spheres
+  const clashColors = {Critical:0xef4444,High:0xf97316,Medium:0xeab308,Low:0x22c55e};
+  const clashPositions = [
+    {x:2,y:6.2,z:1,s:'Critical'},{x:-3,y:4.2,z:-2,s:'High'},
+    {x:4,y:2.2,z:2,s:'High'},{x:-1,y:8.2,z:-1,s:'Medium'},
+    {x:3,y:10.2,z:0,s:'Critical'},{x:-4,y:6.2,z:3,s:'Medium'},
+    {x:1,y:4.2,z:-3,s:'High'},{x:-2,y:0.2,z:1,s:'Low'},
+    {x:5,y:8.2,z:-2,s:'Critical'},{x:-3,y:10.2,z:2,s:'High'},
+    {x:2,y:2.2,z:3,s:'Low'},{x:-5,y:6.2,z:-1,s:'Critical'},
+  ];
+  const spheres = [];
+  clashPositions.forEach((cp,i)=>{
+    const geo = new THREE.SphereGeometry(.22,16,16);
+    const mat = new THREE.MeshBasicMaterial({color:clashColors[cp.s]||0xffffff});
+    const mesh = new THREE.Mesh(geo,mat);
+    mesh.position.set(cp.x,cp.y,cp.z);
+    mesh.userData = {base:cp.y,phase:i*0.6};
+    scene.add(mesh);
+    spheres.push(mesh);
+    // Glow ring
+    const rGeo = new THREE.RingGeometry(.28,.38,16);
+    const rMat = new THREE.MeshBasicMaterial({color:clashColors[cp.s],transparent:true,opacity:.3,side:THREE.DoubleSide});
+    const ring = new THREE.Mesh(rGeo,rMat);
+    ring.position.set(cp.x,cp.y,cp.z);
+    ring.rotation.x = Math.PI/2;
+    ring.userData = {base:cp.y,phase:i*0.6};
+    scene.add(ring);
+    spheres.push(ring);
+  });
+
+  // Grid
+  const gridHelper = new THREE.GridHelper(20,20,0x1e2a45,0x131825);
+  gridHelper.position.y = -0.1;
+  scene.add(gridHelper);
+
+  // Light beams (vertical lines at clash positions)
+  clashPositions.slice(0,5).forEach(cp=>{
+    const pts = [new THREE.Vector3(cp.x,-0.1,cp.z),new THREE.Vector3(cp.x,cp.y,cp.z)];
+    const geo = new THREE.BufferGeometry().setFromPoints(pts);
+    const mat = new THREE.LineBasicMaterial({color:clashColors[cp.s],transparent:true,opacity:.15});
+    scene.add(new THREE.Line(geo,mat));
+  });
+
+  let t = 0;
+  function animate(){
+    requestAnimationFrame(animate);
+    t += 0.008;
+    // Auto rotate
+    scene.rotation.y = t * 0.3;
+    // Pulse spheres
+    spheres.forEach(s=>{
+      if(s.geometry.type==='SphereGeometry'){
+        const sc = 1 + Math.sin(t*2+s.userData.phase)*0.15;
+        s.scale.setScalar(sc);
+      } else {
+        s.material.opacity = .15 + Math.sin(t*2+s.userData.phase)*0.15;
+      }
+    });
+    renderer.render(scene,camera);
+  }
+  animate();
+}
+
+// ── NAVIGATION ─────────────────────────────────────────
+function go(page,el){
+  document.querySelectorAll('.page,.topbar').forEach(p=>{
+    if(p.classList.contains('page')){p.style.display='none';p.classList.remove('active');}
+    else p.style.display='none';
+  });
+  document.querySelectorAll('.ni').forEach(n=>n.classList.remove('active'));
+  const pg = document.getElementById('pg-'+page);
+  const tb = document.getElementById('tb-'+page);
+  pg.style.display='block'; pg.classList.add('active');
+  tb.style.display='flex';
+  if(el) el.classList.add('active');
+  if(page==='dash') renderDash();
+  if(page==='rfis') renderRFIs(rfis);
+  if(page==='employees') renderEmps();
+  if(page==='email') renderEmails();
+}
+
+// ── XML PARSE ──────────────────────────────────────────
+function parseXML(str){
+  const doc = new DOMParser().parseFromString(str,'text/xml');
+  const proj = doc.querySelector('project');
+  const project = {
+    name: proj?.querySelector('name')?.textContent||'Unknown Project',
+    number: proj?.querySelector('number')?.textContent||'PRJ-001',
+    client: proj?.querySelector('client')?.textContent||'',
+    location: proj?.querySelector('location')?.textContent||'',
+    report_date: proj?.querySelector('report_date')?.textContent||new Date().toISOString().split('T')[0],
+  };
+  const clashes=[];
+  doc.querySelectorAll('clash').forEach(c=>{
+    const ea=c.querySelector('element_a'), eb=c.querySelector('element_b'), cp=c.querySelector('clash_point');
+    clashes.push({
+      id:c.getAttribute('id'), type:c.getAttribute('type')||'Hard Clash', status:c.getAttribute('status')||'New',
+      name:c.querySelector('name')?.textContent||'',
+      discipline_a:c.querySelector('discipline_a')?.textContent||'',
+      discipline_b:c.querySelector('discipline_b')?.textContent||'',
+      severity:c.querySelector('severity')?.textContent||'Medium',
+      description:c.querySelector('description')?.textContent||'',
+      element_a:{
+        id:ea?.querySelector('id')?.textContent||'',
+        category:ea?.querySelector('category')?.textContent||'',
+        family:ea?.querySelector('family')?.textContent||'',
+        size:ea?.querySelector('size')?.textContent||'',
+        system:ea?.querySelector('system')?.textContent||'',
+        level:ea?.querySelector('level')?.textContent||'',
+        grid:ea?.querySelector('grid_location')?.textContent||'',
+      },
+      element_b:{
+        id:eb?.querySelector('id')?.textContent||'',
+        category:eb?.querySelector('category')?.textContent||'',
+        family:eb?.querySelector('family')?.textContent||'',
+        size:eb?.querySelector('size')?.textContent||'',
+        level:eb?.querySelector('level')?.textContent||'',
+        grid:eb?.querySelector('grid_location')?.textContent||'',
+      },
+      clash_point:{x:cp?.querySelector('x')?.textContent,y:cp?.querySelector('y')?.textContent,z:cp?.querySelector('z')?.textContent},
+      distance:c.querySelector('distance')?.textContent||'0',
+    });
+  });
+  return {project,clashes};
+}
+
+function loadXML(inp){
+  const f=inp.files[0]; if(!f)return;
+  const r=new FileReader();
+  r.onload=e=>{
+    try{
+      xmlData=parseXML(e.target.result);
+      document.getElementById('xmlName').textContent=f.name;
+      document.getElementById('xmlInfo').textContent=(f.size/1024).toFixed(1)+' KB · '+xmlData.clashes.length+' clashes found';
+      document.getElementById('xmlLoaded').style.display='block';
+      document.getElementById('pName').value=xmlData.project.name;
+      document.getElementById('pNum').value=xmlData.project.number;
+      notify('✅ XML loaded — '+xmlData.clashes.length+' clashes detected','ok');
+      setStep(1);
+      addLog('in','📂 XML loaded: '+f.name+' · '+xmlData.clashes.length+' clashes');
+    }catch(err){notify('❌ '+err.message,'er');}
+  };
+  r.readAsText(f);
+}
+
+function loadPasted(){
+  const t=document.getElementById('xmlPaste').value.trim();
+  if(!t){notify('⚠️ Paste XML first','er');return;}
+  try{
+    xmlData=parseXML(t);
+    document.getElementById('xmlName').textContent='Pasted XML';
+    document.getElementById('xmlInfo').textContent=xmlData.clashes.length+' clashes found';
+    document.getElementById('xmlLoaded').style.display='block';
+    document.getElementById('pName').value=xmlData.project.name;
+    document.getElementById('pNum').value=xmlData.project.number;
+    notify('✅ XML parsed — '+xmlData.clashes.length+' clashes','ok');
+    setStep(1); addLog('in','📋 XML pasted and parsed: '+xmlData.clashes.length+' clashes');
+  }catch(err){notify('❌ '+err.message,'er');}
+}
+
+function dvr(e){e.preventDefault();document.getElementById('dz').classList.add('drag');}
+function dvl(e){document.getElementById('dz').classList.remove('drag');}
+function ddr(e){e.preventDefault();dvl();const f=e.dataTransfer.files[0];if(f){const i=document.getElementById('xmlF');const d=new DataTransfer();d.items.add(f);i.files=d.files;loadXML(i);}}
+
+// ── ENGINE ─────────────────────────────────────────────
+function routeEng(clash){
+  const order=['MEP','Structural','Electrical','Fire Protection','Fire Alarm','Plumbing','Architectural','Civil'];
+  const discs=[clash.discipline_a,clash.discipline_b];
+  for(const d of order){
+    if(discs.includes(d)){const e=emps.find(x=>x.discipline===d);if(e)return e;}
+  }
+  return emps[0]||{name:'Unassigned',email:'',role:'BIM Coordinator',discipline:'General'};
+}
+
+function genRFI(clash,project){
+  const dl={Critical:'24 hours',High:'3 working days',Medium:'1 week',Low:'2 weeks'};
+  const codes={MEP:['NBC 2016 Part 8','IS 655'],Structural:['IS 456:2000','IS 13920'],Electrical:['IS 1646','IE Rules 1956'],'Fire Protection':['NBC 2016 Part 4','IS 2190','NFPA 13'],'Fire Alarm':['NBC 2016 Part 4','IS 2189'],Plumbing:['NBC 2016 Part 9','IS 1172'],Architectural:['NBC 2016 Part 3']};
+  return {
+    subject:`${clash.type} — ${clash.element_a.category} vs ${clash.element_b.category} at ${clash.element_a.level}, Grid ${clash.element_a.grid}`,
+    technical_description:`${clash.discipline_a} element (${clash.element_a.family}) conflicts with ${clash.discipline_b} element (${clash.element_b.family}) at grid ${clash.element_a.grid}, ${clash.element_a.level}. Penetration depth: ${clash.distance}m.`,
+    applicable_codes: codes[clash.discipline_a]||codes[clash.discipline_b]||['NBC 2016'],
+    proposed_resolution:`Coordinate between ${clash.discipline_a} and ${clash.discipline_b} teams for rerouting or approved penetration.`,
+    information_required:`Revised coordination drawing, written approval from ${clash.discipline_b} engineer, and updated BIM model.`,
+    response_deadline:dl[clash.severity]||'3 working days',
+  };
+}
+
+async function runEngine(){
+  if(!xmlData){notify('⚠️ Upload XML first','er');return;}
+  if(!emps.length){notify('⚠️ Add employees first','er');go('employees',document.querySelectorAll('.ni')[3]);return;}
+  const btn=document.getElementById('runBtn');
+  btn.disabled=true; btn.textContent='⏳ Processing...';
+  document.getElementById('summCard').style.display='none';
+  const n8nUrl = document.getElementById('n8nUrl').value.trim();
+  const total=xmlData.clashes.length;
+  let done=0, sent=0;
+  const newRFIs=[], newEmails=[];
+
+  setStep(1);
+  addLog('in','🚀 BIM Clash-to-RFI Engine started');
+  addLog('in',`📂 Project: ${xmlData.project.name} · ${total} clashes`);
+  if(n8nUrl) addLog('n8','⚙️ n8n webhook: '+n8nUrl.substring(0,40)+'...');
+  addLog('ai','🤖 Groq AI: qwen/qwen3.8-27b · RFI generation mode');
+  addLog('','────────────────────────────────────────────');
+  await sleep(400);
+  setStep(2);
+
+  for(const clash of xmlData.clashes){
+    await sleep(350);
+    const eng=routeEng(clash);
+    addLog('in',`🔄 ${clash.id} [${clash.severity}] → Routing to ${eng.name}`);
+    await sleep(300);
+    addLog('ai',`   🤖 Groq AI generating RFI content...`);
+    const rfiContent=genRFI(clash,xmlData.project);
+    await sleep(250);
+    addLog('ok',`   ✅ RFI content generated`);
+    const rfiNum=`RFI-${xmlData.project.number}-${clash.id}`;
+
+    // Send to n8n if URL provided
+    if(n8nUrl){
+      try{
+        addLog('n8',`   ⚙️ Sending to n8n webhook...`);
+        await fetch(n8nUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({rfi_number:rfiNum,clash_id:clash.id,severity:clash.severity,discipline:`${clash.discipline_a} vs ${clash.discipline_b}`,level:clash.element_a.level,grid:clash.element_a.grid,assigned_name:eng.name,assigned_email:eng.email,assigned_role:eng.role,deadline:rfiContent.response_deadline,subject:rfiContent.subject,description:rfiContent.technical_description,codes:rfiContent.applicable_codes.join(', '),resolution:rfiContent.proposed_resolution}),mode:'no-cors'});
+        addLog('n8',`   ✅ n8n webhook triggered → email + PDF pipeline`);
+      }catch(e){addLog('wi',`   ⚠️ n8n: ${e.message}`);}
+    }
+
+    const emailOk=eng.email&&eng.email.includes('@');
+    if(emailOk){addLog('ok',`   📧 Email queued → ${eng.email}`);sent++;}
+    else addLog('wi',`   ⚠️ No email for ${eng.name}`);
+    addLog('ok',`   📄 PDF: ${rfiNum}.pdf`);
+
+    newRFIs.push({id:rfiNum,clash_id:clash.id,clash_name:clash.name,severity:clash.severity,type:clash.type,discipline:`${clash.discipline_a} vs ${clash.discipline_b}`,level:clash.element_a.level,grid:clash.element_a.grid,assigned_to:eng.name,assigned_email:eng.email,assigned_role:eng.role,subject:rfiContent.subject,description:rfiContent.technical_description,deadline:rfiContent.response_deadline,status:'Open',email_status:emailOk?'Sent':'Failed',generated_at:new Date().toISOString()});
+    if(emailOk) newEmails.push({time:new Date().toLocaleTimeString(),rfi_id:rfiNum,to:eng.name,email:eng.email,subject:`[${clash.severity}] ${rfiContent.subject}`,pdf:`${rfiNum}.pdf`,status:'Sent ✅'});
+
+    done++;
+    const pct=Math.round((done/total)*100);
+    document.getElementById('mainProg').style.width=pct+'%';
+    document.getElementById('progLabel').textContent=`${done} of ${total} clashes processed`;
+    document.getElementById('progPct').textContent=pct+'%';
+  }
+
+  setStep(4); await sleep(300); setStep(5);
+  addLog('','────────────────────────────────────────────');
+  addLog('ok',`✅ ENGINE COMPLETE — ${total} RFIs generated`);
+  addLog('ok',`📧 Emails sent: ${sent} · Failed: ${total-sent}`);
+  addLog('in',`📊 Critical: ${newRFIs.filter(r=>r.severity==='Critical').length} · High: ${newRFIs.filter(r=>r.severity==='High').length}`);
+  if(n8nUrl) addLog('n8',`⚙️ n8n triggered ${total} times — check your n8n executions log`);
+
+  rfis=[...rfis,...newRFIs]; emails=[...emails,...newEmails]; save(); updateBadge();
+  document.getElementById('sumTotal').textContent=total;
+  document.getElementById('sumSent').textContent=sent;
+  document.getElementById('sumCrit').textContent=newRFIs.filter(r=>r.severity==='Critical').length;
+  document.getElementById('summCard').style.display='block';
+  btn.disabled=false; btn.textContent='🚀 Run Engine — Generate RFIs & Send Emails';
+  notify(`✅ ${total} RFIs generated! ${sent} emails sent.`,'ok');
+  animateN8N();
+}
+
+function animateN8N(){
+  const nodes=document.querySelectorAll('.n8n-node');
+  const prog=document.getElementById('n8nProg');
+  let i=0;
+  const iv=setInterval(()=>{
+    nodes.forEach(n=>n.classList.remove('active'));
+    if(i<nodes.length){nodes[i].classList.add('active');prog.style.width=((i+1)/nodes.length*100)+'%';i++;}
+    else clearInterval(iv);
+  },400);
+}
+
+function setStep(n){
+  for(let i=1;i<=5;i++){
+    const s=document.getElementById('step'+i);
+    s.classList.remove('done','active');
+    if(i<n) s.classList.add('done');
+    else if(i===n) s.classList.add('active');
+  }
+}
+
+function addLog(type,msg){
+  const log=document.getElementById('engLog');
+  const d=document.createElement('div'); d.className='ll';
+  const ts=document.createElement('span'); ts.className='ts'; ts.textContent=new Date().toLocaleTimeString();
+  const tx=document.createElement('span'); tx.className=type||''; tx.textContent=msg;
+  d.appendChild(ts); d.appendChild(tx); log.appendChild(d); log.scrollTop=log.scrollHeight;
+}
+
+function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
+
+// ── RENDER ─────────────────────────────────────────────
+function renderDash(){
+  const c={Critical:0,High:0,Medium:0,Low:0};
+  rfis.forEach(r=>c[r.severity]=(c[r.severity]||0)+1);
+  document.getElementById('sc').textContent=c.Critical||0;
+  document.getElementById('sh').textContent=c.High||0;
+  document.getElementById('sm').textContent=c.Medium||0;
+  document.getElementById('sl').textContent=c.Low||0;
+  renderCharts(c);
+  const tbody=document.getElementById('dashRFIs');
+  const recent=[...rfis].reverse().slice(0,6);
+  if(!recent.length){tbody.innerHTML='<tr><td colspan="6" class="empty"><div class="empty-icon">📭</div>No RFIs yet</td></tr>';return;}
+  tbody.innerHTML=recent.map(r=>`<tr>
+    <td><code style="font-size:10px;color:var(--accent)">${r.id}</code></td>
+    <td>${sevBadge(r.severity)}</td>
+    <td style="font-size:10px;color:var(--muted2)">${r.discipline}</td>
+    <td><div style="font-size:11px;font-weight:700">${r.assigned_to}</div><div style="font-size:9px;color:var(--muted)">${r.assigned_role||''}</div></td>
+    <td>${r.email_status==='Sent'?'<span class="badge be">📧 Sent</span>':'<span class="badge bf">❌ Failed</span>'}</td>
+    <td>${r.status==='Open'?'<span class="badge bo">🔵 Open</span>':'<span class="badge br">✅ Done</span>'}</td>
+  </tr>`).join('');
+}
+
+function renderCharts(c){
+  if(sChart)sChart.destroy();
+  if(dChart)dChart.destroy();
+  const cfg={responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#64748b',font:{size:10},padding:10}}}};
+  sChart=new Chart(document.getElementById('sevChart').getContext('2d'),{type:'doughnut',data:{labels:['Critical','High','Medium','Low'],datasets:[{data:[c.Critical||0,c.High||0,c.Medium||0,c.Low||0],backgroundColor:['#ef4444','#f97316','#eab308','#22c55e'],borderWidth:0,hoverOffset:4}]},options:{...cfg,cutout:'65%'}});
+  const dc={};rfis.forEach(r=>{dc[r.discipline]=(dc[r.discipline]||0)+1;});
+  dChart=new Chart(document.getElementById('discChart').getContext('2d'),{type:'bar',data:{labels:Object.keys(dc),datasets:[{data:Object.values(dc),backgroundColor:'rgba(59,130,246,.7)',borderRadius:4,borderWidth:0}]},options:{...cfg,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#64748b',font:{size:9}},grid:{color:'#1e2a45'}},y:{ticks:{color:'#94a3b8',font:{size:10}},grid:{display:false}}}}});
+}
+
+function renderRFIs(data){
+  document.getElementById('rfiSub').textContent=data.length+' RFIs';
+  const tbody=document.getElementById('rfiTbl');
+  if(!data.length){tbody.innerHTML='<tr><td colspan="11" class="empty"><div class="empty-icon">📭</div>No RFIs yet</td></tr>';return;}
+  tbody.innerHTML=data.map((r,i)=>`<tr>
+    <td><code style="font-size:10px;color:var(--accent)">${r.id}</code></td>
+    <td><span class="chip">${r.clash_id}</span></td>
+    <td style="max-width:140px;font-size:10px;color:var(--muted2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${r.clash_name||''}</td>
+    <td>${sevBadge(r.severity)}</td>
+    <td style="font-size:10px;color:var(--muted2)">${r.discipline}</td>
+    <td style="font-size:10px;color:var(--muted)">${r.level||''}${r.grid?' / '+r.grid:''}</td>
+    <td><div style="font-size:11px;font-weight:600">${r.assigned_to}</div><div style="font-size:9px;color:var(--muted)">${r.assigned_email}</div></td>
+    <td style="font-size:10px;color:var(--muted)">${r.deadline}</td>
+    <td>${r.email_status==='Sent'?'<span class="badge be">📧 Sent</span>':'<span class="badge bf">❌ Failed</span>'}</td>
+    <td>${r.status==='Open'?'<span class="badge bo">🔵 Open</span>':'<span class="badge br">✅ Done</span>'}</td>
+    <td><div style="display:flex;gap:4px">
+      <button class="btn btn-ghost btn-sm" onclick="toggleStatus(${rfis.indexOf(r)})" style="font-size:10px;padding:2px 7px">${r.status==='Open'?'✅':'↩'}</button>
+      <button class="btn btn-danger btn-sm" onclick="delRFI(${rfis.indexOf(r)})" style="font-size:10px;padding:2px 6px">🗑</button>
+    </div></td>
+  </tr>`).join('');
+}
+
+function renderEmps(){
+  document.getElementById('empSub').textContent=emps.length+' employees';
+  const grid=document.getElementById('empGrid');
+  if(!emps.length){grid.innerHTML='<div class="empty" style="grid-column:1/-1"><div class="empty-icon">👥</div>No employees yet. Add manually or import CSV.</div>';return;}
+  grid.innerHTML=emps.map((e,i)=>{
+    const init=e.name.split(' ').map(n=>n[0]).join('').substring(0,2).toUpperCase();
+    const dc=DCOLORS[e.discipline]||ACOLORS[i%ACOLORS.length];
+    return `<div class="ecard">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <div class="eavatar" style="background:${ACOLORS[i%ACOLORS.length]}">${init}</div>
+        <div><div style="font-size:12px;font-weight:700">${e.name}</div><div style="font-size:10px;color:var(--muted)">${e.role||e.discipline}</div></div>
+      </div>
+      <div style="margin-bottom:6px"><span class="badge" style="background:${dc}18;color:${dc};border-color:${dc}44">${e.discipline}</span>${e.company?` <span class="chip">${e.company}</span>`:''}</div>
+      <div style="font-size:10px;color:var(--muted);margin-bottom:4px">📧 ${e.email||'No email'}</div>
+      ${e.phone?`<div style="font-size:10px;color:var(--muted);margin-bottom:8px">📞 ${e.phone}</div>`:'<div style="margin-bottom:8px"></div>'}
+      <div style="display:flex;gap:6px">
+        <button class="btn btn-ghost btn-sm" onclick="openEmpModal(${i})" style="flex:1">✏️ Edit</button>
+        <button class="btn btn-danger btn-sm" onclick="delEmp(${i})">🗑</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderEmails(){
+  const ok=emails.filter(e=>e.status.includes('✅')).length;
+  document.getElementById('eTotal').textContent=emails.length;
+  document.getElementById('eOk').textContent=ok;
+  document.getElementById('eFail').textContent=emails.length-ok;
+  const tbody=document.getElementById('emailTbl');
+  if(!emails.length){tbody.innerHTML='<tr><td colspan="7" class="empty"><div class="empty-icon">📬</div>No emails yet</td></tr>';return;}
+  tbody.innerHTML=[...emails].reverse().map(e=>`<tr>
+    <td style="font-size:10px;color:var(--muted)">${e.time}</td>
+    <td><code style="font-size:10px;color:var(--accent)">${e.rfi_id}</code></td>
+    <td style="font-size:11px;font-weight:600">${e.to}</td>
+    <td style="font-size:10px;color:var(--muted)">${e.email}</td>
+    <td style="font-size:10px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${e.subject}</td>
+    <td><code style="font-size:9px;color:var(--muted)">${e.pdf}</code></td>
+    <td>${e.status}</td>
+  </tr>`).join('');
+}
+
+// ── EMPLOYEE CRUD ──────────────────────────────────────
+function openEmpModal(idx=-1){
+  editIdx=idx;
+  document.getElementById('modalTitle').textContent=idx>=0?'✏️ Edit Employee':'👤 Add Employee';
+  const e=idx>=0?emps[idx]:{};
+  document.getElementById('eName').value=e.name||'';
+  document.getElementById('eEmail').value=e.email||'';
+  document.getElementById('eDisc').value=e.discipline||'';
+  document.getElementById('eRole').value=e.role||'';
+  document.getElementById('ePhone').value=e.phone||'';
+  document.getElementById('eCompany').value=e.company||'';
+  document.getElementById('empModal').classList.add('open');
+}
+function closeEmpModal(){document.getElementById('empModal').classList.remove('open');}
+function saveEmp(){
+  const n=document.getElementById('eName').value.trim();
+  const em=document.getElementById('eEmail').value.trim();
+  const d=document.getElementById('eDisc').value;
+  if(!n||!em||!d){notify('⚠️ Name, Email and Discipline required','er');return;}
+  const e={name:n,email:em,discipline:d,role:document.getElementById('eRole').value.trim(),phone:document.getElementById('ePhone').value.trim(),company:document.getElementById('eCompany').value.trim()};
+  if(editIdx>=0) emps[editIdx]=e; else emps.push(e);
+  save(); closeEmpModal(); renderEmps();
+  notify(`✅ ${n} ${editIdx>=0?'updated':'added'}`,'ok');
+}
+function delEmp(i){if(!confirm(`Delete ${emps[i].name}?`))return;emps.splice(i,1);save();renderEmps();notify('🗑 Removed','in');}
+function importCSV(inp){
+  const f=inp.files[0];if(!f)return;
+  Papa.parse(f,{header:true,skipEmptyLines:true,complete(r){
+    let a=0;
+    r.data.forEach(row=>{
+      const n=row.name||row.Name||'',em=row.email||row.Email||'',d=row.discipline||row.Discipline||'';
+      if(n&&em&&d){emps.push({name:n,email:em,discipline:d,role:row.role||row.Role||'',phone:row.phone||row.Phone||'',company:row.company||row.Company||''});a++;}
+    });
+    save();renderEmps();notify(`✅ ${a} employees imported`,'ok');
+  },error(e){notify('❌ '+e.message,'er');}});
+  inp.value='';
+}
+function exportEmpCSV(){if(!emps.length){notify('No employees','er');return;}dl('employees.csv',Papa.unparse(emps),'text/csv');notify('✅ Exported','ok');}
+
+// ── RFI ACTIONS ────────────────────────────────────────
+function toggleStatus(i){rfis[i].status=rfis[i].status==='Open'?'Resolved':'Open';save();filterRFIs();notify('Updated','in');}
+function delRFI(i){if(!confirm('Delete '+rfis[i].id+'?'))return;rfis.splice(i,1);save();filterRFIs();updateBadge();}
+function filterRFIs(){
+  const sv=document.getElementById('fSev').value, st=document.getElementById('fSt').value;
+  let d=rfis;
+  if(sv)d=d.filter(r=>r.severity===sv);
+  if(st)d=d.filter(r=>r.status===st);
+  renderRFIs(d);
+}
+function exportCSV(){if(!rfis.length){notify('No RFIs','er');return;}dl('rfi_tracker.csv',Papa.unparse(rfis.map(r=>({RFI:r.id,Clash:r.clash_id,Severity:r.severity,Discipline:r.discipline,AssignedTo:r.assigned_to,Email:r.assigned_email,Deadline:r.deadline,Status:r.status}))),'text/csv');notify('✅ Exported','ok');}
+
+// ── N8N TEST ────────────────────────────────────────────
+async function testN8N(){
+  const url=document.getElementById('n8nTestUrl').value.trim()||document.getElementById('n8nUrl')?.value.trim();
+  if(!url){notify('⚠️ Enter your n8n webhook URL first','er');return;}
+  const res=document.getElementById('testResult');
+  res.textContent='⏳ Sending test payload...';
+  try{
+    await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({test:true,source:'BIM Dashboard',clash_id:'TEST-001',severity:'Critical',discipline:'MEP vs Structural',assigned_name:'Test Engineer',assigned_email:'test@example.com',rfi_number:'RFI-TEST-001',deadline:'24 hours',subject:'TEST — HVAC Duct vs Structural Beam'}),mode:'no-cors'});
+    res.textContent='✅ Test payload sent! Check your n8n executions tab to confirm it arrived.';
+    res.style.color='#86efac';
+    notify('✅ n8n webhook triggered','ok');
+    document.getElementById('n8n-dot').classList.replace('off','on');
+    document.getElementById('n8nStatus').textContent='Connected ✅';
+  }catch(e){
+    res.textContent='⚠️ Could not reach webhook. Check URL and ensure n8n workflow is active.';
+    res.style.color='#fde047';
+  }
+}
+
+// ── HELPERS ────────────────────────────────────────────
+function sevBadge(s){const m={Critical:'bc',High:'bh',Medium:'bm',Low:'bl'};const d={Critical:'🔴',High:'🟠',Medium:'🟡',Low:'🟢'};return `<span class="badge ${m[s]||'bl'}">${d[s]||''} ${s}</span>`;}
+function updateBadge(){document.getElementById('openCount').textContent=rfis.filter(r=>r.status==='Open').length;}
+function save(){localStorage.setItem('b_emps',JSON.stringify(emps));localStorage.setItem('b_rfis',JSON.stringify(rfis));localStorage.setItem('b_emails',JSON.stringify(emails));}
+function dl(name,content,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([content],{type}));a.download=name;a.click();}
+function notify(msg,type='in'){const w=document.getElementById('notifs');const d=document.createElement('div');d.className=`notif n${type}`;d.textContent=msg;w.appendChild(d);setTimeout(()=>d.remove(),4000);}
+
+// ── INIT ───────────────────────────────────────────────
+updateBadge();
+renderDash();
+document.getElementById('tb-dash').style.display='flex';
+setTimeout(init3D,100);
+</script>
+
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>

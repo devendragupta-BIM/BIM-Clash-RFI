@@ -1,0 +1,144 @@
+{
+  "project": {
+    "name": "Greenfield Tower \u2014 Block A",
+    "number": "PRJ-2024-GT-001",
+    "client": "Greenfield Developers Pvt Ltd",
+    "location": "Sector 62, Noida, Uttar Pradesh",
+    "report_date": "2024-12-01",
+    "total_clashes": "12"
+  },
+  "rfis": [
+    {
+      "clash_id": "CLH-001",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-001",
+      "severity": "Critical",
+      "discipline": "MEP vs Structural",
+      "assigned_to": "Rajesh Kumar",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-001.pdf",
+      "subject": "RFI-001: Critical Hard Clash - HVAC Duct vs RCC Beam at Level 3, Grid D4/E4",
+      "deadline": "48 hours"
+    },
+    {
+      "clash_id": "CLH-002",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-002",
+      "severity": "High",
+      "discipline": "Fire Protection vs Electrical",
+      "assigned_to": "Amit Verma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-002.pdf",
+      "subject": "RFI-002: Hard Clash Resolution - 150mm Sprinkler Main vs 100mm EMT Conduit at Level 2, Grid B6/C6",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-003",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-003",
+      "severity": "High",
+      "discipline": "Plumbing vs Structural",
+      "assigned_to": "Priya Sharma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-003.pdf",
+      "subject": "RFI-003: Uncoordinated Penetration of 110mm UPVC Sanitary Stack ST-04 through 200mm RCC Slab at Grid F8, Level 4",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-004",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-004",
+      "severity": "Medium",
+      "discipline": "MEP vs Architectural",
+      "assigned_to": "Rajesh Kumar",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-004.pdf",
+      "subject": "RFI-004: Resolution of Soft Clash between CHW Return Pipe and False Ceiling at Level 5, Grid A3/B3",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-005",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-005",
+      "severity": "Critical",
+      "discipline": "Electrical vs MEP",
+      "assigned_to": "Rajesh Kumar",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-005.pdf",
+      "subject": "RFI-CLH-005: Critical Hard Clash Resolution - 11kV HV Cable Tray vs AHU Fresh Air Duct at Basement B1 Grid C2/D2",
+      "deadline": "24 hours"
+    },
+    {
+      "clash_id": "CLH-006",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-006",
+      "severity": "Medium",
+      "discipline": "Fire Alarm vs Structural",
+      "assigned_to": "Priya Sharma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-006.pdf",
+      "subject": "RFI-CLH-006: Hard Clash - Fire Alarm Conduit Penetration in RCC Column at Grid G5, Level 1",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-007",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-007",
+      "severity": "High",
+      "discipline": "Plumbing vs Electrical",
+      "assigned_to": "Amit Verma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-007.pdf",
+      "subject": "RFI-CLH-007: Clearance Clash - Cold Water Supply Pipe vs. 12-Way TPN at Level 6, Grid H2",
+      "deadline": "48 hours"
+    },
+    {
+      "clash_id": "CLH-008",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-008",
+      "severity": "Critical",
+      "discipline": "Structural vs Architectural",
+      "assigned_to": "Priya Sharma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-008.pdf",
+      "subject": "RFI-CLH-008: Critical Hard Clash - RCC Transfer Beam vs Exit Door at Level 2, Grid B3/C3",
+      "deadline": "24 hours"
+    },
+    {
+      "clash_id": "CLH-009",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-009",
+      "severity": "High",
+      "discipline": "MEP vs Architectural",
+      "assigned_to": "Rajesh Kumar",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-009.pdf",
+      "subject": "RFI-CLH-009: Clearance Clash - CHW-S-03 Pipe vs RCC Staircase Flight 3A at Level 3, Grid E1/F1",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-010",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-010",
+      "severity": "Critical",
+      "discipline": "MEP vs Structural",
+      "assigned_to": "Rajesh Kumar",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-010.pdf",
+      "subject": "RFI-CLH-010: Critical Hard Clash - CPE-B2 Duct vs PT Beam at B2 Grid A1/A2",
+      "deadline": "24 hours"
+    },
+    {
+      "clash_id": "CLH-011",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-011",
+      "severity": "Low",
+      "discipline": "Electrical vs Architectural",
+      "assigned_to": "Amit Verma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-011.pdf",
+      "subject": "RFI-CLH-011: Coordination of Data Trunking (300x60mm) with Architectural Bulkhead at Level 7, Grid C7/D7",
+      "deadline": "3 days"
+    },
+    {
+      "clash_id": "CLH-012",
+      "rfi_number": "RFI-PRJ-2024-GT-001-CLH-012",
+      "severity": "Critical",
+      "discipline": "Plumbing vs Structural",
+      "assigned_to": "Priya Sharma",
+      "email": "devendragupta56789@gmail.com",
+      "pdf": "rfi_output\\RFI-PRJ-2024-GT-001-CLH-012.pdf",
+      "subject": "RFI-CLH-012: Critical Hard Clash - 32mm LPG Pipe Penetration in RCC Shear Wall at Grid J9, Level 1",
+      "deadline": "24 hours"
+    }
+  ]
+}

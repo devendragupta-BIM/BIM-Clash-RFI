@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clash_report>
+  <project>
+    <name>Greenfield Tower — Block A</name>
+    <number>PRJ-2024-GT-001</number>
+    <client>Greenfield Developers Pvt Ltd</client>
+    <location>Sector 62, Noida, Uttar Pradesh</location>
+    <report_date>2024-12-01</report_date>
+    <report_generated_by>Navisworks Manage 2024</report_generated_by>
+    <total_clashes>12</total_clashes>
+  </project>
+
+  <clashes>
+
+    <!-- CLASH 1: HVAC vs Structural Beam -->
+    <clash id="CLH-001" status="New" type="Hard Clash">
+      <name>HVAC Duct vs Structural Beam — Level 3</name>
+      <discipline_a>MEP</discipline_a>
+      <discipline_b>Structural</discipline_b>
+      <element_a>
+        <id>REV-MEP-003421</id>
+        <category>HVAC Duct</category>
+        <family>Rectangular Duct</family>
+        <size>800mm x 400mm</size>
+        <system>Supply Air — AHU-03</system>
+        <level>Level 3</level>
+        <grid_location>D4 / E4</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-STR-001187</id>
+        <category>Structural Framing</category>
+        <family>RCC Beam 450x600</family>
+        <size>450mm x 600mm</size>
+        <level>Level 3</level>
+        <grid_location>D4 / E4</grid_location>
+      </element_b>
+      <clash_point>
+        <x>42.350</x>
+        <y>18.720</y>
+        <z>9.150</z>
+      </clash_point>
+      <distance>-0.180</distance>
+      <severity>Critical</severity>
+      <description>Supply air duct from AHU-03 penetrates structural beam at grid D4/E4 on Level 3. Duct requires rerouting or beam requires penetration sleeve with structural engineer approval.</description>
+    </clash>
+
+    <!-- CLASH 2: Sprinkler Pipe vs Electrical Conduit -->
+    <clash id="CLH-002" status="New" type="Hard Clash">
+      <name>Sprinkler Main vs Electrical Conduit — Level 2</name>
+      <discipline_a>Fire Protection</discipline_a>
+      <discipline_b>Electrical</discipline_b>
+      <element_a>
+        <id>REV-FP-007832</id>
+        <category>Pipe</category>
+        <family>Sprinkler Main — 150mm</family>
+        <size>150mm diameter</size>
+        <system>Fire Sprinkler — Zone B</system>
+        <level>Level 2</level>
+        <grid_location>B6 / C6</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-EL-009341</id>
+        <category>Conduit</category>
+        <family>EMT Conduit 100mm</family>
+        <size>100mm diameter</size>
+        <system>LV Power — DB-L2-B</system>
+        <level>Level 2</level>
+        <grid_location>B6 / C6</grid_location>
+      </element_b>
+      <clash_point>
+        <x>21.100</x>
+        <y>34.560</y>
+        <z>6.300</z>
+      </clash_point>
+      <distance>-0.050</distance>
+      <severity>High</severity>
+      <description>150mm sprinkler main intersects 100mm LV electrical conduit at grid B6/C6. Fire protection pipe takes priority per NBC 2016. Electrical conduit requires rerouting with minimum 300mm clearance from sprinkler main.</description>
+    </clash>
+
+    <!-- CLASH 3: Plumbing Drain vs Structural Slab -->
+    <clash id="CLH-003" status="New" type="Hard Clash">
+      <name>Sanitary Drain Pipe vs RCC Slab — Level 4</name>
+      <discipline_a>Plumbing</discipline_a>
+      <discipline_b>Structural</discipline_b>
+      <element_a>
+        <id>REV-PL-002219</id>
+        <category>Pipe</category>
+        <family>Sanitary Drain — 110mm UPVC</family>
+        <size>110mm diameter</size>
+        <system>Sanitary Drainage — Stack ST-04</system>
+        <level>Level 4</level>
+        <grid_location>F8</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-STR-004562</id>
+        <category>Floors</category>
+        <family>RCC Slab 200mm</family>
+        <size>200mm thick</size>
+        <level>Level 4</level>
+        <grid_location>F8</grid_location>
+      </element_b>
+      <clash_point>
+        <x>67.890</x>
+        <y>12.340</y>
+        <z>12.200</z>
+      </clash_point>
+      <distance>-0.110</distance>
+      <severity>High</severity>
+      <description>110mm UPVC sanitary drain passes through RCC slab at grid F8 without a coordinated sleeve. Structural slab penetration requires core-drilling approval and sleeving to protect slab integrity.</description>
+    </clash>
+
+    <!-- CLASH 4: Chilled Water Pipe vs Architectural Ceiling -->
+    <clash id="CLH-004" status="New" type="Soft Clash">
+      <name>Chilled Water Return vs False Ceiling — Level 5</name>
+      <discipline_a>MEP</discipline_a>
+      <discipline_b>Architectural</discipline_b>
+      <element_a>
+        <id>REV-MEP-011045</id>
+        <category>Pipe</category>
+        <family>Chilled Water Return — 200mm</family>
+        <size>200mm diameter</size>
+        <system>Chilled Water — CHW-Return-05</system>
+        <level>Level 5</level>
+        <grid_location>A3 / B3</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-ARCH-006712</id>
+        <category>Ceilings</category>
+        <family>False Ceiling — GI Frame 12mm Gypsum</family>
+        <size>12mm gypsum board</size>
+        <level>Level 5</level>
+        <grid_location>A3 / B3</grid_location>
+      </element_b>
+      <clash_point>
+        <x>8.450</x>
+        <y>55.200</y>
+        <z>15.600</z>
+      </clash_point>
+      <distance>-0.080</distance>
+      <severity>Medium</severity>
+      <description>200mm chilled water return pipe runs 80mm below coordinated false ceiling level at grid A3/B3 on Level 5. Either ceiling level must be dropped by 120mm or pipe must be raised to maintain 40mm clearance above ceiling frame.</description>
+    </clash>
+
+    <!-- CLASH 5: Electrical Cable Tray vs HVAC Duct -->
+    <clash id="CLH-005" status="New" type="Hard Clash">
+      <name>HV Cable Tray vs AHU Supply Duct — Basement</name>
+      <discipline_a>Electrical</discipline_a>
+      <discipline_b>MEP</discipline_b>
+      <element_a>
+        <id>REV-EL-014332</id>
+        <category>Cable Tray</category>
+        <family>Ladder Tray 600mm wide</family>
+        <size>600mm x 100mm</size>
+        <system>HV Distribution — 11kV Feeder</system>
+        <level>Basement B1</level>
+        <grid_location>C2 / D2</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-MEP-008891</id>
+        <category>HVAC Duct</category>
+        <family>Rectangular Duct 1000x600</family>
+        <size>1000mm x 600mm</size>
+        <system>Fresh Air — AHU-B1</system>
+        <level>Basement B1</level>
+        <grid_location>C2 / D2</grid_location>
+      </element_b>
+      <clash_point>
+        <x>33.670</x>
+        <y>9.880</y>
+        <z>2.400</z>
+      </clash_point>
+      <distance>-0.220</distance>
+      <severity>Critical</severity>
+      <description>600mm HV cable tray carrying 11kV feeder intersects with 1000x600mm AHU fresh air duct in basement B1 at grid C2/D2. HV cable tray cannot be rerouted — AHU duct must be redesigned. Minimum 500mm separation required between HV cable tray and any MEP service per IS 1646.</description>
+    </clash>
+
+    <!-- CLASH 6: Fire Alarm Conduit vs Structural Column -->
+    <clash id="CLH-006" status="New" type="Hard Clash">
+      <name>Fire Alarm Conduit vs RCC Column — Level 1</name>
+      <discipline_a>Fire Alarm</discipline_a>
+      <discipline_b>Structural</discipline_b>
+      <element_a>
+        <id>REV-FA-003318</id>
+        <category>Conduit</category>
+        <family>Fire Alarm Conduit 25mm</family>
+        <size>25mm diameter</size>
+        <system>Fire Alarm Loop — FA-L1-Zone3</system>
+        <level>Level 1</level>
+        <grid_location>G5</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-STR-002201</id>
+        <category>Structural Columns</category>
+        <family>RCC Column 600x600</family>
+        <size>600mm x 600mm</size>
+        <level>Level 1</level>
+        <grid_location>G5</grid_location>
+      </element_b>
+      <clash_point>
+        <x>55.120</x>
+        <y>27.650</y>
+        <z>3.500</z>
+      </clash_point>
+      <distance>-0.025</distance>
+      <severity>Medium</severity>
+      <description>25mm fire alarm conduit routed through structural column at grid G5, Level 1. Conduit must be surface-mounted or rerouted around column perimeter. No penetrations permitted in structural columns per IS 456.</description>
+    </clash>
+
+    <!-- CLASH 7: Domestic Water Supply vs Electrical DB -->
+    <clash id="CLH-007" status="New" type="Clearance Clash">
+      <name>Cold Water Supply vs Electrical DB — Level 6</name>
+      <discipline_a>Plumbing</discipline_a>
+      <discipline_b>Electrical</discipline_b>
+      <element_a>
+        <id>REV-PL-009902</id>
+        <category>Pipe</category>
+        <family>Cold Water Supply — 63mm CPVC</family>
+        <size>63mm diameter</size>
+        <system>Domestic Cold Water — Zone C</system>
+        <level>Level 6</level>
+        <grid_location>H2</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-EL-021108</id>
+        <category>Electrical Equipment</category>
+        <family>Distribution Board — 12 Way TPN</family>
+        <size>600mm x 800mm x 200mm</size>
+        <system>LV Distribution — DB-L6-C</system>
+        <level>Level 6</level>
+        <grid_location>H2</grid_location>
+      </element_b>
+      <clash_point>
+        <x>78.340</x>
+        <y>41.120</y>
+        <z>18.900</z>
+      </clash_point>
+      <distance>0.150</distance>
+      <severity>High</severity>
+      <description>Cold water supply pipe runs within 150mm of electrical distribution board at grid H2, Level 6. IE Rules 1956 require minimum 1000mm horizontal clearance between water services and electrical panels. Plumbing route must be revised to maintain compliance.</description>
+    </clash>
+
+    <!-- CLASH 8: Structural Beam vs Door Frame -->
+    <clash id="CLH-008" status="New" type="Hard Clash">
+      <name>Transfer Beam vs Door Frame Opening — Level 2</name>
+      <discipline_a>Structural</discipline_a>
+      <discipline_b>Architectural</discipline_b>
+      <element_a>
+        <id>REV-STR-007743</id>
+        <category>Structural Framing</category>
+        <family>RCC Transfer Beam 600x900</family>
+        <size>600mm x 900mm</size>
+        <level>Level 2</level>
+        <grid_location>B3 / C3</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-ARCH-013445</id>
+        <category>Doors</category>
+        <family>Single Door 1000x2100</family>
+        <size>1000mm x 2100mm</size>
+        <level>Level 2</level>
+        <grid_location>B3 / C3</grid_location>
+      </element_b>
+      <clash_point>
+        <x>18.900</x>
+        <y>62.450</y>
+        <z>6.800</z>
+      </clash_point>
+      <distance>-0.350</distance>
+      <severity>Critical</severity>
+      <description>600x900mm RCC transfer beam bottom soffit is 350mm below coordinated door head at grid B3/C3. Door opening height is reduced to 1750mm which is below NBC 2016 minimum clear height of 2000mm for exit doors. Structural or architectural revision required.</description>
+    </clash>
+
+    <!-- CLASH 9: MEP Pipe vs Staircase Headroom -->
+    <clash id="CLH-009" status="New" type="Clearance Clash">
+      <name>Chilled Water Pipe vs Staircase Headroom — Level 3</name>
+      <discipline_a>MEP</discipline_a>
+      <discipline_b>Architectural</discipline_b>
+      <element_a>
+        <id>REV-MEP-016672</id>
+        <category>Pipe</category>
+        <family>Chilled Water Supply — 150mm</family>
+        <size>150mm diameter</size>
+        <system>Chilled Water Supply — CHW-S-03</system>
+        <level>Level 3</level>
+        <grid_location>E1 / F1</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-ARCH-019034</id>
+        <category>Stairs</category>
+        <family>RCC Staircase — Flight 3A</family>
+        <size>1500mm wide</size>
+        <level>Level 3</level>
+        <grid_location>E1 / F1</grid_location>
+      </element_b>
+      <clash_point>
+        <x>29.780</x>
+        <y>5.670</y>
+        <z>9.500</z>
+      </clash_point>
+      <distance>0.080</distance>
+      <severity>High</severity>
+      <description>150mm chilled water supply pipe reduces staircase headroom to 1920mm at grid E1/F1 which is below NBC 2016 minimum of 2200mm clear headroom over stairs. Pipe must be rerouted or raised with revised hanger design.</description>
+    </clash>
+
+    <!-- CLASH 10: Ventilation Duct vs Parking Structure -->
+    <clash id="CLH-010" status="New" type="Hard Clash">
+      <name>Exhaust Duct vs Parking Beam — Basement B2</name>
+      <discipline_a>MEP</discipline_a>
+      <discipline_b>Structural</discipline_b>
+      <element_a>
+        <id>REV-MEP-022341</id>
+        <category>HVAC Duct</category>
+        <family>Rectangular Duct 1200x500</family>
+        <size>1200mm x 500mm</size>
+        <system>Car Park Exhaust — CPE-B2</system>
+        <level>Basement B2</level>
+        <grid_location>A1 / A2</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-STR-011234</id>
+        <category>Structural Framing</category>
+        <family>Post-Tension Beam 400x700</family>
+        <size>400mm x 700mm</size>
+        <level>Basement B2</level>
+        <grid_location>A1 / A2</grid_location>
+      </element_b>
+      <clash_point>
+        <x>4.560</x>
+        <y>88.120</y>
+        <z>-3.200</z>
+      </clash_point>
+      <distance>-0.140</distance>
+      <severity>Critical</severity>
+      <description>1200x500mm car park exhaust duct collides with post-tensioned beam in basement B2. Post-tensioned beams cannot be penetrated under any circumstances. Duct must be completely rerouted — coordinate with structural engineer for approved service corridor.</description>
+    </clash>
+
+    <!-- CLASH 11: Electrical Trunking vs Architectural Bulkhead -->
+    <clash id="CLH-011" status="New" type="Soft Clash">
+      <name>Data Cable Trunking vs Architectural Bulkhead — Level 7</name>
+      <discipline_a>Electrical</discipline_a>
+      <discipline_b>Architectural</discipline_b>
+      <element_a>
+        <id>REV-EL-028891</id>
+        <category>Cable Tray</category>
+        <family>Data Trunking 300mm</family>
+        <size>300mm x 60mm</size>
+        <system>IT/Data — Structured Cabling Zone D</system>
+        <level>Level 7</level>
+        <grid_location>C7 / D7</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-ARCH-031220</id>
+        <category>Generic Models</category>
+        <family>Architectural Bulkhead — 400mm Drop</family>
+        <size>400mm drop x 200mm projection</size>
+        <level>Level 7</level>
+        <grid_location>C7 / D7</grid_location>
+      </element_b>
+      <clash_point>
+        <x>51.230</x>
+        <y>73.890</y>
+        <z>22.100</z>
+      </clash_point>
+      <distance>-0.060</distance>
+      <severity>Low</severity>
+      <description>Data cable trunking runs through architectural decorative bulkhead at grid C7/D7 on Level 7. Trunking can be surface mounted below bulkhead with revised hanger positions — no structural or MEP impact. Coordination required with interior design team.</description>
+    </clash>
+
+    <!-- CLASH 12: Gas Pipe vs Structural Wall -->
+    <clash id="CLH-012" status="New" type="Hard Clash">
+      <name>LPG Gas Pipe vs RCC Shear Wall — Level 1</name>
+      <discipline_a>Plumbing</discipline_a>
+      <discipline_b>Structural</discipline_b>
+      <element_a>
+        <id>REV-PL-033410</id>
+        <category>Pipe</category>
+        <family>LPG Gas Supply — 32mm MS</family>
+        <size>32mm diameter</size>
+        <system>LPG Distribution — Kitchen Block K1</system>
+        <level>Level 1</level>
+        <grid_location>J9</grid_location>
+      </element_a>
+      <element_b>
+        <id>REV-STR-034891</id>
+        <category>Walls</category>
+        <family>RCC Shear Wall 250mm</family>
+        <size>250mm thick</size>
+        <level>Level 1</level>
+        <grid_location>J9</grid_location>
+      </element_b>
+      <clash_point>
+        <x>91.780</x>
+        <y>16.450</y>
+        <z>3.800</z>
+      </clash_point>
+      <distance>-0.032</distance>
+      <severity>Critical</severity>
+      <description>32mm LPG gas supply pipe routed through RCC shear wall at grid J9 without a sealed sleeve. Shear wall penetrations require structural engineer sign-off and fire-rated intumescent sealing per OISD-STD-226. Gas pipe routing must be reviewed immediately — safety critical item.</description>
+    </clash>
+
+  </clashes>
+
+</clash_report>
